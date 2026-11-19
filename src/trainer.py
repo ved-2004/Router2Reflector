@@ -657,6 +657,12 @@ def main() -> None:
         cv=args.calibration_cv,
     )
     xgb_platt.fit(X_train, y_train)
+    platt_path = model_save_path.with_name(model_save_path.stem + "_platt.joblib")
+    try:
+        joblib.dump(xgb_platt, platt_path)
+        print(f"Saved Platt-calibrated router (calibrated p_fail): {platt_path.resolve()}")
+    except OSError as exc:
+        raise RuntimeError(f"Failed to write calibrated router to {platt_path}: {exc}") from exc
     prob_platt = xgb_platt.predict_proba(X_test)[:, 1]
     calibration_series["XGBoost + Platt (CalibratedClassifierCV)"] = prob_platt
 

@@ -1,0 +1,58 @@
+{
+  "3B": {
+    "th": {
+      "entropy_hi": 0.03213081508874893,
+      "entropy_ok": 6.54829855193384e-05,
+      "margin_lo": 0.9914217874757014,
+      "margin_ok": 0.9999917813640877
+    },
+    "best_style": "evidence_reconstruction",
+    "ctx": "ft_filt",
+    "tau": 0.00971685182303189,
+    "tau_q": 0.7,
+    "delta": 0.0,
+    "sel_abstain": 0.8266496744178775
+  },
+  "7B": {
+    "th": {
+      "entropy_hi": 0.08550568111240864,
+      "entropy_ok": 0.0002761648065643385,
+      "margin_lo": 0.971423560520634,
+      "margin_ok": 0.9999609145324939
+    },
+    "best_style": "evidence_reconstruction",
+    "ctx": "filt",
+    "tau": 0.5138893187046056,
+    "tau_q": 0.9,
+    "delta": 0.0,
+    "sel_abstain": 0.9152693187185288
+  },
+  "14B": {
+    "th": {
+      "entropy_hi": 0.00105387280927971,
+      "entropy_ok": 3.928257608087904e-09,
+      "margin_lo": 0.9997939351160312,
+      "margin_ok": 0.9999999998861764
+    },
+    "best_style": "plain_retry",
+    "ctx": "ft_filt",
+    "tau": 0.31326513290405283,
+    "tau_q": 0.9,
+    "delta": 0.1,
+    "sel_abstain": 0.8787022806949802
+  },
+  "32B": {
+    "th": {
+      "entropy_hi": 0.00012439470265235286,
+      "entropy_ok": 3.7073601966142178e-09,
+      "margin_lo": 0.9999807960534781,
+      "margin_ok": 0.9999999998604305
+    },
+    "best_style": "option_elimination",
+    "ctx": "ft_filt",
+    "tau": 0.0017035969533026245,
+    "tau_q": 0.8,
+    "delta": 0.0,
+    "sel_abstain": 0.8298656506408073
+  }
+}

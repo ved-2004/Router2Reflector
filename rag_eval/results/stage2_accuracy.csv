@@ -1,0 +1,785 @@
+size,option,gate,split,param,n,acc,acc_direct,delta_pp,ci_lo,ci_hi,fixed,broken,inject_rate
+3B,R0_ft_filt,always,validation,null,300,62.33,66.0,-3.67,-7.67,0.33,11,22,78.0
+3B,R0_ft_filt,always,test,null,300,67.67,71.33,-3.67,-7.33,-0.33,9,20,82.0
+3B,R0_ft_filt,route,validation,null,300,65.0,66.0,-1.0,-4.0,2.0,8,11,54.7
+3B,R0_ft_filt,route,test,null,300,67.67,71.33,-3.67,-6.33,-1.0,3,14,57.0
+3B,R0_ft_filt,H,validation,0.009717,300,67.33,66.0,1.33,-0.33,3.33,6,2,9.0
+3B,R0_ft_filt,H,test,0.009717,300,69.67,71.33,-1.67,-3.33,0.0,1,6,9.7
+3B,R0_ft_filt,src,validation,"[""MedQA""]",300,67.0,66.0,1.0,-0.67,2.67,5,2,11.3
+3B,R0_ft_filt,src,test,"[""MedQA""]",300,70.33,71.33,-1.0,-2.67,0.67,2,5,13.3
+3B,wiki_dense,always,validation,null,300,63.67,66.0,-2.33,-6.33,1.67,15,22,100.0
+3B,wiki_dense,always,test,null,300,68.0,71.33,-3.33,-7.33,0.67,13,23,100.0
+3B,wiki_dense,route,validation,null,300,65.0,66.0,-1.0,-4.0,2.0,9,12,66.7
+3B,wiki_dense,route,test,null,300,69.33,71.33,-2.0,-5.0,0.67,6,12,66.7
+3B,wiki_dense,H,validation,0.009717,300,67.0,66.0,1.0,-1.0,3.33,7,4,12.3
+3B,wiki_dense,H,test,0.009717,300,70.67,71.33,-0.67,-2.67,1.0,3,5,12.7
+3B,wiki_dense,nli,validation,"[0.95, 0.6]",300,66.0,66.0,0.0,-1.0,1.0,1,1,4.0
+3B,wiki_dense,nli,test,"[0.95, 0.6]",300,71.33,71.33,0.0,0.0,0.0,0,0,2.7
+3B,wiki_dense,src,validation,"[""MedQA""]",300,66.67,66.0,0.67,-1.33,3.0,6,4,16.7
+3B,wiki_dense,src,test,"[""MedQA""]",300,71.33,71.33,0.0,-1.67,1.67,3,3,16.7
+3B,wiki_dense_rr,always,validation,null,300,65.33,66.0,-0.67,-4.33,3.0,14,16,100.0
+3B,wiki_dense_rr,always,test,null,300,68.33,71.33,-3.0,-7.0,0.67,13,22,100.0
+3B,wiki_dense_rr,route,validation,null,300,66.0,66.0,0.0,-2.67,2.67,8,8,66.7
+3B,wiki_dense_rr,route,test,null,300,69.67,71.33,-1.67,-4.33,0.67,5,10,66.7
+3B,wiki_dense_rr,H,validation,0.00017,300,67.0,66.0,1.0,-1.33,3.33,8,5,20.7
+3B,wiki_dense_rr,H,test,0.00017,300,70.33,71.33,-1.0,-3.0,1.0,3,6,21.3
+3B,wiki_dense_rr,nli,validation,"[0.1, 0.0]",300,67.0,66.0,1.0,-1.0,3.33,7,4,50.3
+3B,wiki_dense_rr,nli,test,"[0.1, 0.0]",300,70.33,71.33,-1.0,-3.0,1.0,4,7,49.3
+3B,wiki_dense_rr,src,validation,"[""ARC-Easy"", ""MedQA""]",300,66.67,66.0,0.67,-1.33,2.67,6,4,33.3
+3B,wiki_dense_rr,src,test,"[""ARC-Easy"", ""MedQA""]",300,70.67,71.33,-0.67,-2.33,1.0,3,5,33.3
+3B,wiki_dense__L3000,always,validation,null,300,64.33,66.0,-1.67,-5.33,2.0,14,19,100.0
+3B,wiki_dense__L3000,always,test,null,300,67.33,71.33,-4.0,-8.33,0.0,15,27,100.0
+3B,wiki_dense__L3000,route,validation,null,300,66.33,66.0,0.33,-2.33,3.33,10,9,66.7
+3B,wiki_dense__L3000,route,test,null,300,68.0,71.33,-3.33,-6.33,-0.67,5,15,66.7
+3B,wiki_dense__L3000,H,validation,0.009717,300,67.33,66.0,1.33,-0.33,3.33,6,2,12.3
+3B,wiki_dense__L3000,H,test,0.009717,300,69.33,71.33,-2.0,-4.0,0.0,2,8,12.7
+3B,wiki_dense__L3000,nli,validation,"[0.1, 0.0]",300,66.67,66.0,0.67,-1.67,3.33,8,6,51.7
+3B,wiki_dense__L3000,nli,test,"[0.1, 0.0]",300,68.33,71.33,-3.0,-6.0,-0.33,4,13,52.7
+3B,wiki_dense__L3000,src,validation,"[""ARC-Easy"", ""MedQA""]",300,67.33,66.0,1.33,-1.0,4.0,9,5,33.3
+3B,wiki_dense__L3000,src,test,"[""ARC-Easy"", ""MedQA""]",300,69.33,71.33,-2.0,-4.33,0.0,3,9,33.3
+3B,wiki_hybrid_opt_rr,always,validation,null,300,60.0,66.0,-6.0,-10.33,-2.0,10,28,100.0
+3B,wiki_hybrid_opt_rr,always,test,null,300,61.0,71.33,-10.33,-15.0,-5.67,12,43,100.0
+3B,wiki_hybrid_opt_rr,route,validation,null,300,62.33,66.0,-3.67,-6.67,-0.66,6,17,66.7
+3B,wiki_hybrid_opt_rr,route,test,null,300,64.0,71.33,-7.33,-11.0,-4.0,4,26,66.7
+3B,wiki_hybrid_opt_rr,H,validation,1.283469,300,66.0,66.0,0.0,0.0,0.0,0,0,0.0
+3B,wiki_hybrid_opt_rr,H,test,1.283469,300,71.33,71.33,0.0,0.0,0.0,0,0,0.0
+3B,wiki_hybrid_opt_rr,nli,validation,"[0.7, 0.6]",300,66.67,66.0,0.67,0.0,1.67,2,0,8.3
+3B,wiki_hybrid_opt_rr,nli,test,"[0.7, 0.6]",300,70.33,71.33,-1.0,-2.33,0.0,0,3,11.3
+3B,wiki_hybrid_opt_rr,src,validation,[],300,66.0,66.0,0.0,0.0,0.0,0,0,0.0
+3B,wiki_hybrid_opt_rr,src,test,[],300,71.33,71.33,0.0,0.0,0.0,0,0,0.0
+3B,arc_dense,always,validation,null,300,64.67,66.0,-1.33,-5.33,2.33,16,20,100.0
+3B,arc_dense,always,test,null,300,67.0,71.33,-4.33,-7.67,-1.33,7,20,100.0
+3B,arc_dense,route,validation,null,300,66.0,66.0,0.0,-3.0,3.0,11,11,66.7
+3B,arc_dense,route,test,null,300,67.67,71.33,-3.67,-6.33,-1.0,3,14,66.7
+3B,arc_dense,H,validation,1.6e-05,300,67.0,66.0,1.0,-1.67,4.0,11,8,27.7
+3B,arc_dense,H,test,1.6e-05,300,68.67,71.33,-2.67,-5.33,-0.33,3,11,27.3
+3B,arc_dense,nli,validation,"[0.6, 0.4]",300,66.67,66.0,0.67,0.0,1.67,2,0,8.3
+3B,arc_dense,nli,test,"[0.6, 0.4]",300,71.33,71.33,0.0,0.0,0.0,0,0,7.0
+3B,arc_dense,src,validation,"[""ARC-Easy"", ""MedQA""]",300,67.0,66.0,1.0,-1.33,3.67,9,6,33.3
+3B,arc_dense,src,test,"[""ARC-Easy"", ""MedQA""]",300,69.0,71.33,-2.33,-4.67,-0.33,2,9,33.3
+3B,arc_hybrid_opt_rr,always,validation,null,300,61.33,66.0,-4.67,-8.33,-1.0,11,25,100.0
+3B,arc_hybrid_opt_rr,always,test,null,300,65.33,71.33,-6.0,-10.33,-1.67,13,31,100.0
+3B,arc_hybrid_opt_rr,route,validation,null,300,64.67,66.0,-1.33,-4.67,1.67,9,13,66.7
+3B,arc_hybrid_opt_rr,route,test,null,300,66.33,71.33,-5.0,-8.0,-2.33,3,18,66.7
+3B,arc_hybrid_opt_rr,H,validation,0.000698,300,66.33,66.0,0.33,-1.67,2.67,6,5,17.7
+3B,arc_hybrid_opt_rr,H,test,0.000698,300,68.33,71.33,-3.0,-5.33,-0.67,2,11,16.3
+3B,arc_hybrid_opt_rr,nli,validation,"[0.95, 0.6]",300,66.0,66.0,0.0,0.0,0.0,0,0,1.7
+3B,arc_hybrid_opt_rr,nli,test,"[0.95, 0.6]",300,71.33,71.33,0.0,0.0,0.0,0,0,2.0
+3B,arc_hybrid_opt_rr,src,validation,"[""ARC-Easy""]",300,66.33,66.0,0.33,-1.0,1.67,3,2,16.7
+3B,arc_hybrid_opt_rr,src,test,"[""ARC-Easy""]",300,70.67,71.33,-0.67,-2.0,0.67,1,3,16.7
+3B,gen3B,always,validation,null,300,67.67,66.0,1.67,-2.67,6.0,25,20,100.0
+3B,gen3B,always,test,null,300,66.67,71.33,-4.67,-9.0,-0.33,16,30,100.0
+3B,gen3B,route,validation,null,300,65.67,66.0,-0.33,-3.67,3.0,14,15,66.7
+3B,gen3B,route,test,null,300,67.0,71.33,-4.33,-7.67,-1.0,7,20,66.7
+3B,gen3B,H,validation,0.032131,300,68.33,66.0,2.33,0.0,5.0,11,4,10.7
+3B,gen3B,H,test,0.032131,300,70.33,71.33,-1.0,-3.0,1.0,4,7,11.0
+3B,gen3B,nli,validation,"[0.3, 0.2]",300,66.67,66.0,0.67,-1.33,3.0,6,4,28.0
+3B,gen3B,nli,test,"[0.3, 0.2]",300,70.0,71.33,-1.33,-3.0,0.0,1,5,27.7
+3B,gen3B,src,validation,"[""AQUA-RAT"", ""MedQA"", ""ReClor""]",300,70.67,66.0,4.67,1.33,8.0,21,7,50.0
+3B,gen3B,src,test,"[""AQUA-RAT"", ""MedQA"", ""ReClor""]",300,69.0,71.33,-2.33,-6.0,1.33,13,20,50.0
+3B,gen7B,always,validation,null,300,71.33,66.0,5.33,1.33,9.67,32,16,100.0
+3B,gen7B,always,test,null,300,73.0,71.33,1.67,-2.33,5.67,20,15,100.0
+3B,gen7B,route,validation,null,300,70.33,66.0,4.33,1.0,8.0,21,8,66.7
+3B,gen7B,route,test,null,300,73.0,71.33,1.67,-1.0,4.33,12,7,66.7
+3B,gen7B,H,validation,0.00017,300,70.67,66.0,4.67,2.0,7.67,18,4,20.7
+3B,gen7B,H,test,0.00017,300,71.67,71.33,0.33,-2.33,3.0,8,7,21.3
+3B,gen7B,nli,validation,"[0.3, 0.0]",300,70.67,66.0,4.67,1.67,7.67,18,4,45.0
+3B,gen7B,nli,test,"[0.3, 0.0]",300,72.0,71.33,0.67,-2.0,3.0,8,6,44.3
+3B,gen7B,src,validation,"[""AQUA-RAT"", ""ARC-Easy"", ""MedQA"", ""ReClor"", ""SciQ""]",300,71.67,66.0,5.67,1.33,9.67,29,12,83.3
+3B,gen7B,src,test,"[""AQUA-RAT"", ""ARC-Easy"", ""MedQA"", ""ReClor"", ""SciQ""]",300,72.0,71.33,0.67,-3.0,4.0,16,14,83.3
+3B,gen14B,always,validation,null,300,72.33,66.0,6.33,3.0,10.0,26,7,100.0
+3B,gen14B,always,test,null,300,73.33,71.33,2.0,-2.33,6.33,26,20,100.0
+3B,gen14B,route,validation,null,300,71.33,66.0,5.33,2.33,8.33,20,4,66.7
+3B,gen14B,route,test,null,300,69.67,71.33,-1.67,-4.67,1.33,9,14,66.7
+3B,gen14B,H,validation,6.5e-05,300,72.0,66.0,6.0,3.0,9.0,20,2,24.3
+3B,gen14B,H,test,6.5e-05,300,70.33,71.33,-1.0,-3.67,1.67,7,10,22.3
+3B,gen14B,nli,validation,"[0.0, 0.0]",300,71.33,66.0,5.33,2.33,8.67,20,4,66.7
+3B,gen14B,nli,test,"[0.0, 0.0]",300,69.67,71.33,-1.67,-5.0,1.33,9,14,66.7
+3B,gen14B,src,validation,"[""AQUA-RAT"", ""ARC-Easy"", ""MMLU"", ""MedQA"", ""ReClor"", ""SciQ""]",300,72.33,66.0,6.33,2.67,10.0,26,7,100.0
+3B,gen14B,src,test,"[""AQUA-RAT"", ""ARC-Easy"", ""MMLU"", ""MedQA"", ""ReClor"", ""SciQ""]",300,73.33,71.33,2.0,-2.33,6.33,26,20,100.0
+3B,gen32B,always,validation,null,300,71.0,66.0,5.0,0.67,9.33,29,14,100.0
+3B,gen32B,always,test,null,300,71.67,71.33,0.33,-4.33,5.0,26,25,100.0
+3B,gen32B,route,validation,null,300,71.33,66.0,5.33,2.0,9.0,24,8,66.7
+3B,gen32B,route,test,null,300,71.33,71.33,0.0,-3.33,3.33,14,14,66.7
+3B,gen32B,H,validation,6.5e-05,300,72.33,66.0,6.33,3.0,9.67,23,4,24.3
+3B,gen32B,H,test,6.5e-05,300,70.67,71.33,-0.67,-3.67,2.67,10,12,22.3
+3B,gen32B,nli,validation,"[0.0, 0.0]",300,71.33,66.0,5.33,1.67,9.0,24,8,66.7
+3B,gen32B,nli,test,"[0.0, 0.0]",300,71.33,71.33,0.0,-3.33,3.33,14,14,66.7
+3B,gen32B,src,validation,"[""AQUA-RAT"", ""ARC-Easy"", ""MedQA""]",300,72.67,66.0,6.67,3.33,10.0,25,5,50.0
+3B,gen32B,src,test,"[""AQUA-RAT"", ""ARC-Easy"", ""MedQA""]",300,71.33,71.33,0.0,-3.33,3.33,12,12,50.0
+3B,oracle_sciq,always,validation,null,300,67.0,66.0,1.0,0.0,2.33,3,0,14.7
+3B,oracle_sciq,always,test,null,300,72.0,71.33,0.67,0.0,1.67,2,0,15.3
+3B,oracle_sciq,route,validation,null,300,67.0,66.0,1.0,0.0,2.33,3,0,14.7
+3B,oracle_sciq,route,test,null,300,72.0,71.33,0.67,0.0,1.67,2,0,15.3
+3B,oracle_sciq,H,validation,0.0,300,67.0,66.0,1.0,0.0,2.33,3,0,14.7
+3B,oracle_sciq,H,test,0.0,300,72.0,71.33,0.67,0.0,1.67,2,0,15.3
+3B,oracle_sciq,src,validation,"[""SciQ""]",300,67.0,66.0,1.0,0.0,2.33,3,0,14.7
+3B,oracle_sciq,src,test,"[""SciQ""]",300,72.0,71.33,0.67,0.0,1.67,2,0,15.3
+3B,med_bm25_rr,always,validation,null,300,62.33,66.0,-3.67,-7.67,0.67,14,25,100.0
+3B,med_bm25_rr,always,test,null,300,66.33,71.33,-5.0,-9.33,-0.67,15,30,100.0
+3B,med_bm25_rr,route,validation,null,300,64.33,66.0,-1.67,-5.0,1.33,10,15,66.7
+3B,med_bm25_rr,route,test,null,300,66.33,71.33,-5.0,-8.0,-2.0,3,18,66.7
+3B,med_bm25_rr,H,validation,0.009717,300,67.33,66.0,1.33,-0.67,3.67,8,4,12.3
+3B,med_bm25_rr,H,test,0.009717,300,69.0,71.33,-2.33,-4.67,0.0,3,10,12.7
+3B,med_bm25_rr,nli,validation,"[0.8, 0.1]",300,66.33,66.0,0.33,-0.67,1.33,2,1,11.7
+3B,med_bm25_rr,nli,test,"[0.8, 0.1]",300,71.0,71.33,-0.33,-1.0,0.0,0,1,9.3
+3B,med_bm25_rr,src,validation,"[""MedQA""]",300,67.0,66.0,1.0,-1.0,3.0,6,3,16.7
+3B,med_bm25_rr,src,test,"[""MedQA""]",300,70.0,71.33,-1.33,-3.33,0.33,2,6,16.7
+3B,med_dense,always,validation,null,300,67.67,66.0,1.67,-2.33,5.67,21,16,100.0
+3B,med_dense,always,test,null,300,66.67,71.33,-4.67,-8.67,-0.67,12,26,100.0
+3B,med_dense,route,validation,null,300,66.67,66.0,0.67,-2.0,3.33,10,8,66.7
+3B,med_dense,route,test,null,300,67.67,71.33,-3.67,-6.33,-1.0,3,14,66.7
+3B,med_dense,H,validation,0.009717,300,67.33,66.0,1.33,-0.67,3.34,7,3,12.3
+3B,med_dense,H,test,0.009717,300,69.67,71.33,-1.67,-3.67,0.0,2,7,12.7
+3B,med_dense,nli,validation,"[0.4, 0.1]",300,66.67,66.0,0.67,-0.67,2.0,3,1,22.0
+3B,med_dense,nli,test,"[0.4, 0.1]",300,71.0,71.33,-0.33,-1.33,0.67,1,2,16.0
+3B,med_dense,src,validation,"[""MedQA"", ""ReClor"", ""SciQ""]",300,68.67,66.0,2.67,-0.33,5.67,15,7,50.0
+3B,med_dense,src,test,"[""MedQA"", ""ReClor"", ""SciQ""]",300,68.33,71.33,-3.0,-6.0,0.0,6,15,50.0
+3B,med_dense_rr,always,validation,null,300,63.33,66.0,-2.67,-7.0,2.0,20,28,100.0
+3B,med_dense_rr,always,test,null,300,66.67,71.33,-4.67,-8.33,-1.0,10,24,100.0
+3B,med_dense_rr,route,validation,null,300,65.0,66.0,-1.0,-4.33,2.33,12,15,66.7
+3B,med_dense_rr,route,test,null,300,67.67,71.33,-3.67,-6.33,-1.0,3,14,66.7
+3B,med_dense_rr,H,validation,0.009717,300,68.33,66.0,2.33,0.0,4.67,10,3,12.3
+3B,med_dense_rr,H,test,0.009717,300,70.33,71.33,-1.0,-2.67,0.67,2,5,12.7
+3B,med_dense_rr,nli,validation,"[0.3, 0.1]",300,66.33,66.0,0.33,-1.67,2.33,5,4,26.3
+3B,med_dense_rr,nli,test,"[0.3, 0.1]",300,71.0,71.33,-0.33,-1.67,0.67,1,2,21.3
+3B,med_dense_rr,src,validation,"[""MedQA""]",300,67.33,66.0,1.33,-1.0,3.67,8,4,16.7
+3B,med_dense_rr,src,test,"[""MedQA""]",300,70.67,71.33,-0.67,-2.67,1.0,3,5,16.7
+3B,med_hybrid_rr,always,validation,null,300,63.0,66.0,-3.0,-6.67,0.67,13,22,100.0
+3B,med_hybrid_rr,always,test,null,300,66.0,71.33,-5.33,-9.33,-1.33,12,28,100.0
+3B,med_hybrid_rr,route,validation,null,300,65.33,66.0,-0.67,-3.67,2.33,9,11,66.7
+3B,med_hybrid_rr,route,test,null,300,65.67,71.33,-5.67,-9.0,-2.67,2,19,66.7
+3B,med_hybrid_rr,H,validation,0.009717,300,67.33,66.0,1.33,-0.67,3.33,7,3,12.3
+3B,med_hybrid_rr,H,test,0.009717,300,69.0,71.33,-2.33,-4.67,-0.33,2,9,12.7
+3B,med_hybrid_rr,nli,validation,"[0.95, 0.6]",300,66.0,66.0,0.0,0.0,0.0,0,0,2.0
+3B,med_hybrid_rr,nli,test,"[0.95, 0.6]",300,71.33,71.33,0.0,0.0,0.0,0,0,1.7
+3B,med_hybrid_rr,src,validation,"[""MedQA""]",300,66.67,66.0,0.67,-1.33,2.33,5,3,16.7
+3B,med_hybrid_rr,src,test,"[""MedQA""]",300,69.33,71.33,-2.0,-4.0,-0.33,1,7,16.7
+3B,med_hybrid_opt_rr,always,validation,null,300,61.0,66.0,-5.0,-9.33,-0.67,15,30,100.0
+3B,med_hybrid_opt_rr,always,test,null,300,65.0,71.33,-6.33,-10.67,-1.67,16,35,100.0
+3B,med_hybrid_opt_rr,route,validation,null,300,64.0,66.0,-2.0,-5.33,1.33,11,17,66.7
+3B,med_hybrid_opt_rr,route,test,null,300,65.33,71.33,-6.0,-9.67,-2.67,6,24,66.7
+3B,med_hybrid_opt_rr,H,validation,0.009717,300,67.0,66.0,1.0,-1.33,3.33,8,5,12.3
+3B,med_hybrid_opt_rr,H,test,0.009717,300,70.33,71.33,-1.0,-3.33,1.33,5,8,12.7
+3B,med_hybrid_opt_rr,nli,validation,"[0.8, 0.6]",300,65.67,66.0,-0.33,-2.0,1.0,2,3,8.0
+3B,med_hybrid_opt_rr,nli,test,"[0.8, 0.6]",300,69.67,71.33,-1.67,-3.33,-0.33,0,5,7.0
+3B,med_hybrid_opt_rr,src,validation,"[""MedQA""]",300,67.33,66.0,1.33,-1.0,3.67,8,4,16.7
+3B,med_hybrid_opt_rr,src,test,"[""MedQA""]",300,70.0,71.33,-1.33,-4.0,1.0,6,10,16.7
+3B,med_hybrid_rr__L3000,always,validation,null,300,63.33,66.0,-2.67,-7.0,1.33,16,24,100.0
+3B,med_hybrid_rr__L3000,always,test,null,300,64.0,71.33,-7.33,-12.0,-3.0,12,34,100.0
+3B,med_hybrid_rr__L3000,route,validation,null,300,66.67,66.0,0.67,-2.67,3.67,13,11,66.7
+3B,med_hybrid_rr__L3000,route,test,null,300,65.33,71.33,-6.0,-9.67,-3.0,5,23,66.7
+3B,med_hybrid_rr__L3000,H,validation,0.009717,300,68.33,66.0,2.33,-0.01,4.67,11,4,12.3
+3B,med_hybrid_rr__L3000,H,test,0.009717,300,70.33,71.33,-1.0,-3.33,1.33,5,8,12.7
+3B,med_hybrid_rr__L3000,nli,validation,"[0.0, 0.0]",300,66.67,66.0,0.67,-2.33,3.67,13,11,66.7
+3B,med_hybrid_rr__L3000,nli,test,"[0.0, 0.0]",300,65.33,71.33,-6.0,-9.67,-2.67,5,23,66.7
+3B,med_hybrid_rr__L3000,src,validation,"[""ARC-Easy"", ""MedQA""]",300,67.67,66.0,1.67,-0.67,4.33,10,5,33.3
+3B,med_hybrid_rr__L3000,src,test,"[""ARC-Easy"", ""MedQA""]",300,67.67,71.33,-3.67,-6.67,-1.0,3,14,33.3
+3B,medtb_dense_rr,always,validation,null,300,62.33,66.0,-3.67,-8.0,0.67,15,26,100.0
+3B,medtb_dense_rr,always,test,null,300,66.33,71.33,-5.0,-8.67,-1.33,10,25,100.0
+3B,medtb_dense_rr,route,validation,null,300,64.67,66.0,-1.33,-4.33,2.0,10,14,66.7
+3B,medtb_dense_rr,route,test,null,300,68.67,71.33,-2.67,-5.33,0.0,4,12,66.7
+3B,medtb_dense_rr,H,validation,0.009717,300,67.67,66.0,1.67,-0.67,4.0,9,4,12.3
+3B,medtb_dense_rr,H,test,0.009717,300,70.67,71.33,-0.67,-2.67,1.0,3,5,12.7
+3B,medtb_dense_rr,nli,validation,"[0.8, 0.6]",300,66.33,66.0,0.33,0.0,1.33,1,0,3.0
+3B,medtb_dense_rr,nli,test,"[0.8, 0.6]",300,71.0,71.33,-0.33,-1.0,0.0,0,1,4.0
+3B,medtb_dense_rr,src,validation,"[""MedQA""]",300,68.0,66.0,2.0,0.0,4.0,8,2,16.7
+3B,medtb_dense_rr,src,test,"[""MedQA""]",300,70.33,71.33,-1.0,-3.0,1.0,3,6,16.7
+3B,medtb_hybrid_rr,always,validation,null,300,63.33,66.0,-2.67,-7.0,1.33,16,24,100.0
+3B,medtb_hybrid_rr,always,test,null,300,68.67,71.33,-2.67,-6.33,0.67,11,19,100.0
+3B,medtb_hybrid_rr,route,validation,null,300,64.0,66.0,-2.0,-5.0,1.0,8,14,66.7
+3B,medtb_hybrid_rr,route,test,null,300,69.67,71.33,-1.67,-4.67,1.0,6,11,66.7
+3B,medtb_hybrid_rr,H,validation,0.009717,300,67.0,66.0,1.0,-1.33,3.0,7,4,12.3
+3B,medtb_hybrid_rr,H,test,0.009717,300,70.33,71.33,-1.0,-3.0,1.0,3,6,12.7
+3B,medtb_hybrid_rr,nli,validation,"[0.95, 0.6]",300,66.0,66.0,0.0,0.0,0.0,0,0,2.0
+3B,medtb_hybrid_rr,nli,test,"[0.95, 0.6]",300,71.0,71.33,-0.33,-1.0,0.0,0,1,2.3
+3B,medtb_hybrid_rr,src,validation,"[""MedQA""]",300,67.0,66.0,1.0,-0.67,2.67,5,2,16.7
+3B,medtb_hybrid_rr,src,test,"[""MedQA""]",300,71.33,71.33,0.0,-1.67,2.0,4,4,16.7
+7B,R0_ft_filt,always,validation,null,300,69.33,73.67,-4.33,-7.33,-1.33,4,17,78.0
+7B,R0_ft_filt,always,test,null,300,73.33,75.33,-2.0,-4.67,1.0,7,13,82.0
+7B,R0_ft_filt,route,validation,null,300,73.0,73.67,-0.67,-2.67,1.0,3,5,54.7
+7B,R0_ft_filt,route,test,null,300,74.67,75.33,-0.67,-3.0,1.34,5,7,57.0
+7B,R0_ft_filt,H,validation,1.519185,300,73.67,73.67,0.0,0.0,0.0,0,0,0.0
+7B,R0_ft_filt,H,test,1.519185,300,75.33,75.33,0.0,0.0,0.0,0,0,0.0
+7B,R0_ft_filt,src,validation,[],300,73.67,73.67,0.0,0.0,0.0,0,0,0.0
+7B,R0_ft_filt,src,test,[],300,75.33,75.33,0.0,0.0,0.0,0,0,0.0
+7B,wiki_dense,always,validation,null,300,73.33,73.67,-0.33,-4.0,3.0,14,15,100.0
+7B,wiki_dense,always,test,null,300,74.0,75.33,-1.33,-4.34,1.67,9,13,100.0
+7B,wiki_dense,route,validation,null,300,74.67,73.67,1.0,-1.67,3.67,10,7,66.7
+7B,wiki_dense,route,test,null,300,74.67,75.33,-0.67,-3.0,1.67,5,7,66.7
+7B,wiki_dense,H,validation,0.044075,300,74.67,73.67,1.0,-1.33,3.33,8,5,13.3
+7B,wiki_dense,H,test,0.044075,300,75.33,75.33,0.0,-1.33,1.33,2,2,7.3
+7B,wiki_dense,nli,validation,"[0.8, 0.0]",300,75.33,73.67,1.67,-0.33,3.67,7,2,25.3
+7B,wiki_dense,nli,test,"[0.8, 0.0]",300,75.0,75.33,-0.33,-1.67,0.67,1,2,21.0
+7B,wiki_dense,src,validation,"[""ARC-Easy"", ""SciQ""]",300,74.67,73.67,1.0,-0.33,2.67,4,1,33.3
+7B,wiki_dense,src,test,"[""ARC-Easy"", ""SciQ""]",300,75.67,75.33,0.33,-1.33,2.0,4,3,33.3
+7B,wiki_dense_rr,always,validation,null,300,72.0,73.67,-1.67,-5.0,1.67,10,15,100.0
+7B,wiki_dense_rr,always,test,null,300,72.67,75.33,-2.67,-6.0,0.67,8,16,100.0
+7B,wiki_dense_rr,route,validation,null,300,73.67,73.67,0.0,-2.33,2.33,7,7,66.7
+7B,wiki_dense_rr,route,test,null,300,73.33,75.33,-2.0,-4.33,0.33,4,10,66.7
+7B,wiki_dense_rr,H,validation,0.003345,300,74.33,73.67,0.67,-1.33,3.0,6,4,18.7
+7B,wiki_dense_rr,H,test,0.003345,300,74.67,75.33,-0.67,-2.67,1.33,4,6,15.7
+7B,wiki_dense_rr,nli,validation,"[0.8, 0.0]",300,75.0,73.67,1.33,0.33,2.67,4,0,20.7
+7B,wiki_dense_rr,nli,test,"[0.8, 0.0]",300,74.33,75.33,-1.0,-2.33,0.0,0,3,22.7
+7B,wiki_dense_rr,src,validation,[],300,73.67,73.67,0.0,0.0,0.0,0,0,0.0
+7B,wiki_dense_rr,src,test,[],300,75.33,75.33,0.0,0.0,0.0,0,0,0.0
+7B,wiki_dense__L3000,always,validation,null,300,70.0,73.67,-3.67,-7.67,0.33,13,24,100.0
+7B,wiki_dense__L3000,always,test,null,300,74.33,75.33,-1.0,-4.33,2.67,12,15,100.0
+7B,wiki_dense__L3000,route,validation,null,300,72.67,73.67,-1.0,-4.0,2.0,8,11,66.7
+7B,wiki_dense__L3000,route,test,null,300,73.67,75.33,-1.67,-4.0,1.0,5,10,66.7
+7B,wiki_dense__L3000,H,validation,1.519185,300,73.67,73.67,0.0,0.0,0.0,0,0,0.0
+7B,wiki_dense__L3000,H,test,1.519185,300,75.33,75.33,0.0,0.0,0.0,0,0,0.0
+7B,wiki_dense__L3000,nli,validation,"[0.8, 0.1]",300,74.67,73.67,1.0,-0.33,2.67,4,1,14.0
+7B,wiki_dense__L3000,nli,test,"[0.8, 0.1]",300,75.33,75.33,0.0,0.0,0.0,0,0,11.7
+7B,wiki_dense__L3000,src,validation,"[""MMLU""]",300,74.0,73.67,0.33,0.0,1.0,1,0,16.7
+7B,wiki_dense__L3000,src,test,"[""MMLU""]",300,75.33,75.33,0.0,-1.0,1.0,1,1,16.7
+7B,wiki_hybrid_opt_rr,always,validation,null,300,69.67,73.67,-4.0,-8.33,0.33,15,27,100.0
+7B,wiki_hybrid_opt_rr,always,test,null,300,68.67,75.33,-6.67,-10.67,-3.0,7,27,100.0
+7B,wiki_hybrid_opt_rr,route,validation,null,300,72.0,73.67,-1.67,-4.67,1.67,10,15,66.7
+7B,wiki_hybrid_opt_rr,route,test,null,300,70.33,75.33,-5.0,-8.0,-2.67,2,17,66.7
+7B,wiki_hybrid_opt_rr,H,validation,0.044075,300,74.33,73.67,0.67,-1.67,3.0,8,6,13.3
+7B,wiki_hybrid_opt_rr,H,test,0.044075,300,74.33,75.33,-1.0,-2.33,0.0,0,3,7.3
+7B,wiki_hybrid_opt_rr,nli,validation,"[0.95, 0.1]",300,74.0,73.67,0.33,0.0,1.0,1,0,8.7
+7B,wiki_hybrid_opt_rr,nli,test,"[0.95, 0.1]",300,74.33,75.33,-1.0,-2.33,0.0,0,3,10.7
+7B,wiki_hybrid_opt_rr,src,validation,"[""SciQ""]",300,74.0,73.67,0.33,-0.67,1.33,2,1,16.7
+7B,wiki_hybrid_opt_rr,src,test,"[""SciQ""]",300,74.67,75.33,-0.67,-2.0,0.67,1,3,16.7
+7B,arc_dense,always,validation,null,300,71.0,73.67,-2.67,-6.33,1.0,12,20,100.0
+7B,arc_dense,always,test,null,300,73.0,75.33,-2.33,-5.33,0.33,6,13,100.0
+7B,arc_dense,route,validation,null,300,74.0,73.67,0.33,-2.0,3.0,8,7,66.7
+7B,arc_dense,route,test,null,300,73.0,75.33,-2.33,-4.67,0.0,3,10,66.7
+7B,arc_dense,H,validation,0.003345,300,74.33,73.67,0.67,-1.67,3.0,7,5,18.7
+7B,arc_dense,H,test,0.003345,300,74.33,75.33,-1.0,-3.0,0.67,2,5,15.7
+7B,arc_dense,nli,validation,"[0.8, 0.2]",300,74.0,73.67,0.33,0.0,1.01,1,0,7.0
+7B,arc_dense,nli,test,"[0.8, 0.2]",300,75.33,75.33,0.0,0.0,0.0,0,0,6.0
+7B,arc_dense,src,validation,"[""ARC-Easy"", ""SciQ""]",300,75.0,73.67,1.33,-0.33,3.0,5,1,33.3
+7B,arc_dense,src,test,"[""ARC-Easy"", ""SciQ""]",300,74.67,75.33,-0.67,-2.0,0.67,1,3,33.3
+7B,arc_hybrid_opt_rr,always,validation,null,300,68.33,73.67,-5.33,-9.33,-1.33,12,28,100.0
+7B,arc_hybrid_opt_rr,always,test,null,300,72.33,75.33,-3.0,-6.33,0.33,9,18,100.0
+7B,arc_hybrid_opt_rr,route,validation,null,300,71.33,73.67,-2.33,-5.33,0.33,7,14,66.7
+7B,arc_hybrid_opt_rr,route,test,null,300,73.67,75.33,-1.67,-4.33,0.67,5,10,66.7
+7B,arc_hybrid_opt_rr,H,validation,0.513889,300,74.0,73.67,0.33,-0.67,1.33,2,1,2.0
+7B,arc_hybrid_opt_rr,H,test,0.513889,300,74.67,75.33,-0.67,-1.67,0.0,0,2,2.0
+7B,arc_hybrid_opt_rr,nli,validation,"[0.1, 0.1]",300,74.33,73.67,0.67,-0.67,2.0,3,1,22.7
+7B,arc_hybrid_opt_rr,nli,test,"[0.1, 0.1]",300,74.0,75.33,-1.33,-3.33,0.33,2,6,24.3
+7B,arc_hybrid_opt_rr,src,validation,[],300,73.67,73.67,0.0,0.0,0.0,0,0,0.0
+7B,arc_hybrid_opt_rr,src,test,[],300,75.33,75.33,0.0,0.0,0.0,0,0,0.0
+7B,gen3B,always,validation,null,300,72.67,73.67,-1.0,-5.67,3.67,24,27,100.0
+7B,gen3B,always,test,null,300,71.0,75.33,-4.33,-8.67,0.0,16,29,100.0
+7B,gen3B,route,validation,null,300,73.0,73.67,-0.67,-4.33,2.67,13,15,66.7
+7B,gen3B,route,test,null,300,71.33,75.33,-4.0,-7.0,-1.33,4,16,66.7
+7B,gen3B,H,validation,0.010616,300,75.0,73.67,1.33,-1.33,4.33,11,7,15.7
+7B,gen3B,H,test,0.010616,300,73.67,75.33,-1.67,-4.0,0.33,3,8,10.7
+7B,gen3B,nli,validation,"[0.95, 0.0]",300,74.33,73.67,0.67,-1.0,2.33,5,3,28.7
+7B,gen3B,nli,test,"[0.95, 0.0]",300,73.67,75.33,-1.67,-3.67,0.33,2,7,27.7
+7B,gen3B,src,validation,"[""AQUA-RAT"", ""ARC-Easy"", ""MMLU""]",300,76.0,73.67,2.33,-0.67,5.33,14,7,50.0
+7B,gen3B,src,test,"[""AQUA-RAT"", ""ARC-Easy"", ""MMLU""]",300,76.67,75.33,1.33,-1.33,4.33,12,8,50.0
+7B,gen7B,always,validation,null,300,74.67,73.67,1.0,-3.0,5.01,22,19,100.0
+7B,gen7B,always,test,null,300,75.33,75.33,0.0,-3.01,3.33,12,12,100.0
+7B,gen7B,route,validation,null,300,75.0,73.67,1.33,-1.67,4.33,13,9,66.7
+7B,gen7B,route,test,null,300,75.67,75.33,0.33,-2.33,3.0,9,8,66.7
+7B,gen7B,H,validation,0.001253,300,75.33,73.67,1.67,-1.33,4.67,12,7,21.0
+7B,gen7B,H,test,0.001253,300,76.33,75.33,1.0,-1.33,3.33,8,5,18.7
+7B,gen7B,nli,validation,"[0.3, 0.0]",300,75.0,73.67,1.33,-0.67,3.33,7,3,45.0
+7B,gen7B,nli,test,"[0.3, 0.0]",300,74.67,75.33,-0.67,-3.0,1.33,5,7,44.3
+7B,gen7B,src,validation,"[""AQUA-RAT"", ""ARC-Easy"", ""MMLU"", ""MedQA""]",300,75.67,73.67,2.0,-1.33,5.67,17,11,66.7
+7B,gen7B,src,test,"[""AQUA-RAT"", ""ARC-Easy"", ""MMLU"", ""MedQA""]",300,76.67,75.33,1.33,-1.33,4.0,11,7,66.7
+7B,gen14B,always,validation,null,300,77.67,73.67,4.0,-0.33,8.33,27,15,100.0
+7B,gen14B,always,test,null,300,78.67,75.33,3.33,-0.33,7.0,21,11,100.0
+7B,gen14B,route,validation,null,300,77.67,73.67,4.0,1.0,7.33,17,5,66.7
+7B,gen14B,route,test,null,300,76.0,75.33,0.67,-2.0,3.33,9,7,66.7
+7B,gen14B,H,validation,8e-06,300,78.0,73.67,4.33,1.33,7.33,17,4,34.7
+7B,gen14B,H,test,8e-06,300,76.0,75.33,0.67,-1.67,3.33,9,7,32.7
+7B,gen14B,nli,validation,"[0.0, 0.0]",300,77.67,73.67,4.0,1.0,7.0,17,5,66.7
+7B,gen14B,nli,test,"[0.0, 0.0]",300,76.0,75.33,0.67,-1.67,3.33,9,7,66.7
+7B,gen14B,src,validation,"[""AQUA-RAT"", ""ARC-Easy"", ""MMLU"", ""MedQA"", ""SciQ""]",300,78.0,73.67,4.33,0.67,8.0,23,10,83.3
+7B,gen14B,src,test,"[""AQUA-RAT"", ""ARC-Easy"", ""MMLU"", ""MedQA"", ""SciQ""]",300,78.67,75.33,3.33,0.0,7.0,18,8,83.3
+7B,gen32B,always,validation,null,300,77.33,73.67,3.67,-0.33,7.67,23,12,100.0
+7B,gen32B,always,test,null,300,76.33,75.33,1.0,-2.33,4.33,14,11,100.0
+7B,gen32B,route,validation,null,300,77.67,73.67,4.0,1.0,7.33,18,6,66.7
+7B,gen32B,route,test,null,300,76.67,75.33,1.33,-1.0,4.0,8,4,66.7
+7B,gen32B,H,validation,8e-06,300,78.0,73.67,4.33,1.33,7.33,18,5,34.7
+7B,gen32B,H,test,8e-06,300,76.67,75.33,1.33,-1.0,3.67,8,4,32.7
+7B,gen32B,nli,validation,"[0.1, 0.0]",300,78.0,73.67,4.33,1.67,7.33,17,4,54.7
+7B,gen32B,nli,test,"[0.1, 0.0]",300,76.33,75.33,1.0,-1.0,3.0,6,3,56.7
+7B,gen32B,src,validation,"[""ARC-Easy"", ""MMLU"", ""MedQA""]",300,78.0,73.67,4.33,1.67,7.33,17,4,50.0
+7B,gen32B,src,test,"[""ARC-Easy"", ""MMLU"", ""MedQA""]",300,76.67,75.33,1.33,-0.67,3.33,7,3,50.0
+7B,oracle_sciq,always,validation,null,300,74.0,73.67,0.33,0.0,1.0,1,0,14.7
+7B,oracle_sciq,always,test,null,300,76.33,75.33,1.0,0.0,2.33,3,0,15.3
+7B,oracle_sciq,route,validation,null,300,74.0,73.67,0.33,0.0,1.0,1,0,14.7
+7B,oracle_sciq,route,test,null,300,76.33,75.33,1.0,0.0,2.33,3,0,15.3
+7B,oracle_sciq,H,validation,0.044075,300,74.0,73.67,0.33,0.0,1.0,1,0,1.0
+7B,oracle_sciq,H,test,0.044075,300,75.33,75.33,0.0,0.0,0.0,0,0,0.0
+7B,oracle_sciq,src,validation,"[""SciQ""]",300,74.0,73.67,0.33,0.0,1.0,1,0,14.7
+7B,oracle_sciq,src,test,"[""SciQ""]",300,76.33,75.33,1.0,0.0,2.33,3,0,15.3
+7B,med_bm25_rr,always,validation,null,300,67.67,73.67,-6.0,-9.67,-2.33,8,26,100.0
+7B,med_bm25_rr,always,test,null,300,73.67,75.33,-1.67,-5.33,2.0,12,17,100.0
+7B,med_bm25_rr,route,validation,null,300,71.33,73.67,-2.33,-5.33,0.67,7,14,66.7
+7B,med_bm25_rr,route,test,null,300,73.0,75.33,-2.33,-5.33,0.33,6,13,66.7
+7B,med_bm25_rr,H,validation,1.519185,300,73.67,73.67,0.0,0.0,0.0,0,0,0.0
+7B,med_bm25_rr,H,test,1.519185,300,75.33,75.33,0.0,0.0,0.0,0,0,0.0
+7B,med_bm25_rr,nli,validation,"[0.9, 0.2]",300,74.33,73.67,0.67,-0.67,2.0,3,1,7.3
+7B,med_bm25_rr,nli,test,"[0.9, 0.2]",300,74.67,75.33,-0.67,-1.67,0.0,0,2,5.0
+7B,med_bm25_rr,src,validation,[],300,73.67,73.67,0.0,0.0,0.0,0,0,0.0
+7B,med_bm25_rr,src,test,[],300,75.33,75.33,0.0,0.0,0.0,0,0,0.0
+7B,med_dense,always,validation,null,300,71.67,73.67,-2.0,-5.01,1.33,9,15,100.0
+7B,med_dense,always,test,null,300,73.33,75.33,-2.0,-5.33,1.33,10,16,100.0
+7B,med_dense,route,validation,null,300,73.0,73.67,-0.67,-2.67,1.33,4,6,66.7
+7B,med_dense,route,test,null,300,73.0,75.33,-2.33,-5.0,0.33,4,11,66.7
+7B,med_dense,H,validation,0.833805,300,74.0,73.67,0.33,0.0,1.0,1,0,0.3
+7B,med_dense,H,test,0.833805,300,75.33,75.33,0.0,0.0,0.0,0,0,0.3
+7B,med_dense,nli,validation,"[0.6, 0.0]",300,74.33,73.67,0.67,-0.67,2.0,3,1,35.0
+7B,med_dense,nli,test,"[0.6, 0.0]",300,75.0,75.33,-0.33,-2.0,1.33,2,3,28.7
+7B,med_dense,src,validation,[],300,73.67,73.67,0.0,0.0,0.0,0,0,0.0
+7B,med_dense,src,test,[],300,75.33,75.33,0.0,0.0,0.0,0,0,0.0
+7B,med_dense_rr,always,validation,null,300,68.67,73.67,-5.0,-8.67,-1.33,8,23,100.0
+7B,med_dense_rr,always,test,null,300,73.67,75.33,-1.67,-5.0,2.0,12,17,100.0
+7B,med_dense_rr,route,validation,null,300,71.33,73.67,-2.33,-5.33,0.33,6,13,66.7
+7B,med_dense_rr,route,test,null,300,73.0,75.33,-2.33,-5.0,0.33,5,12,66.7
+7B,med_dense_rr,H,validation,0.833805,300,74.0,73.67,0.33,0.0,1.0,1,0,0.3
+7B,med_dense_rr,H,test,0.833805,300,75.33,75.33,0.0,0.0,0.0,0,0,0.3
+7B,med_dense_rr,nli,validation,"[0.2, 0.1]",300,73.67,73.67,0.0,-1.67,1.67,3,3,29.0
+7B,med_dense_rr,nli,test,"[0.2, 0.1]",300,74.33,75.33,-1.0,-2.33,0.33,1,4,24.7
+7B,med_dense_rr,src,validation,[],300,73.67,73.67,0.0,0.0,0.0,0,0,0.0
+7B,med_dense_rr,src,test,[],300,75.33,75.33,0.0,0.0,0.0,0,0,0.0
+7B,med_hybrid_rr,always,validation,null,300,68.67,73.67,-5.0,-8.67,-1.67,8,23,100.0
+7B,med_hybrid_rr,always,test,null,300,73.0,75.33,-2.33,-6.0,1.33,12,19,100.0
+7B,med_hybrid_rr,route,validation,null,300,72.33,73.67,-1.33,-4.33,1.33,7,11,66.7
+7B,med_hybrid_rr,route,test,null,300,72.33,75.33,-3.0,-5.67,0.0,5,14,66.7
+7B,med_hybrid_rr,H,validation,1.519185,300,73.67,73.67,0.0,0.0,0.0,0,0,0.0
+7B,med_hybrid_rr,H,test,1.519185,300,75.33,75.33,0.0,0.0,0.0,0,0,0.0
+7B,med_hybrid_rr,nli,validation,"[0.7, 0.1]",300,74.33,73.67,0.67,-0.67,2.33,4,2,15.7
+7B,med_hybrid_rr,nli,test,"[0.7, 0.1]",300,74.67,75.33,-0.67,-1.67,0.0,0,2,12.3
+7B,med_hybrid_rr,src,validation,[],300,73.67,73.67,0.0,0.0,0.0,0,0,0.0
+7B,med_hybrid_rr,src,test,[],300,75.33,75.33,0.0,0.0,0.0,0,0,0.0
+7B,med_hybrid_opt_rr,always,validation,null,300,67.33,73.67,-6.33,-10.67,-2.0,14,33,100.0
+7B,med_hybrid_opt_rr,always,test,null,300,73.0,75.33,-2.33,-6.0,1.33,12,19,100.0
+7B,med_hybrid_opt_rr,route,validation,null,300,70.0,73.67,-3.67,-7.33,-0.33,9,20,66.7
+7B,med_hybrid_opt_rr,route,test,null,300,71.33,75.33,-4.0,-6.67,-1.33,3,15,66.7
+7B,med_hybrid_opt_rr,H,validation,0.085506,300,74.33,73.67,0.67,-1.33,2.67,6,4,9.3
+7B,med_hybrid_opt_rr,H,test,0.085506,300,75.0,75.33,-0.33,-1.67,1.0,2,3,5.7
+7B,med_hybrid_opt_rr,nli,validation,"[0.9, 0.6]",300,73.0,73.67,-0.67,-2.33,0.67,2,4,6.0
+7B,med_hybrid_opt_rr,nli,test,"[0.9, 0.6]",300,74.67,75.33,-0.67,-1.67,0.0,0,2,6.0
+7B,med_hybrid_opt_rr,src,validation,[],300,73.67,73.67,0.0,0.0,0.0,0,0,0.0
+7B,med_hybrid_opt_rr,src,test,[],300,75.33,75.33,0.0,0.0,0.0,0,0,0.0
+7B,med_hybrid_rr__L3000,always,validation,null,300,70.0,73.67,-3.67,-7.67,0.33,14,25,100.0
+7B,med_hybrid_rr__L3000,always,test,null,300,72.67,75.33,-2.67,-6.0,0.67,11,19,100.0
+7B,med_hybrid_rr__L3000,route,validation,null,300,71.67,73.67,-2.0,-5.0,1.0,8,14,66.7
+7B,med_hybrid_rr__L3000,route,test,null,300,72.33,75.33,-3.0,-6.0,-0.33,5,14,66.7
+7B,med_hybrid_rr__L3000,H,validation,0.513889,300,74.0,73.67,0.33,-0.67,1.33,2,1,2.0
+7B,med_hybrid_rr__L3000,H,test,0.513889,300,74.67,75.33,-0.67,-2.0,0.67,1,3,2.0
+7B,med_hybrid_rr__L3000,nli,validation,"[0.6, 0.1]",300,74.0,73.67,0.33,-1.33,2.0,4,3,19.3
+7B,med_hybrid_rr__L3000,nli,test,"[0.6, 0.1]",300,75.0,75.33,-0.33,-1.0,0.0,0,1,15.7
+7B,med_hybrid_rr__L3000,src,validation,"[""MMLU""]",300,74.0,73.67,0.33,0.0,1.0,1,0,16.7
+7B,med_hybrid_rr__L3000,src,test,"[""MMLU""]",300,75.0,75.33,-0.33,-1.0,0.0,0,1,16.7
+7B,medtb_dense_rr,always,validation,null,300,71.0,73.67,-2.67,-6.33,0.67,11,19,100.0
+7B,medtb_dense_rr,always,test,null,300,72.67,75.33,-2.67,-5.67,0.67,7,15,100.0
+7B,medtb_dense_rr,route,validation,null,300,73.67,73.67,0.0,-2.67,2.67,9,9,66.7
+7B,medtb_dense_rr,route,test,null,300,72.67,75.33,-2.67,-5.0,-0.33,3,11,66.7
+7B,medtb_dense_rr,H,validation,0.003345,300,75.0,73.67,1.33,-1.0,3.67,9,5,18.7
+7B,medtb_dense_rr,H,test,0.003345,300,74.33,75.33,-1.0,-3.0,1.0,3,6,15.7
+7B,medtb_dense_rr,nli,validation,"[0.9, 0.0]",300,75.0,73.67,1.33,0.33,2.67,4,0,10.7
+7B,medtb_dense_rr,nli,test,"[0.9, 0.0]",300,75.67,75.33,0.33,0.0,1.0,1,0,9.7
+7B,medtb_dense_rr,src,validation,"[""MedQA""]",300,75.0,73.67,1.33,-0.33,3.33,6,2,16.7
+7B,medtb_dense_rr,src,test,"[""MedQA""]",300,74.33,75.33,-1.0,-3.0,0.67,3,6,16.7
+7B,medtb_hybrid_rr,always,validation,null,300,72.33,73.67,-1.33,-4.67,2.0,11,15,100.0
+7B,medtb_hybrid_rr,always,test,null,300,73.67,75.33,-1.67,-4.67,1.0,6,11,100.0
+7B,medtb_hybrid_rr,route,validation,null,300,73.33,73.67,-0.33,-3.33,2.67,9,10,66.7
+7B,medtb_hybrid_rr,route,test,null,300,73.67,75.33,-1.67,-3.67,0.33,2,7,66.7
+7B,medtb_hybrid_rr,H,validation,0.181122,300,74.33,73.67,0.67,-1.33,2.33,5,3,6.3
+7B,medtb_hybrid_rr,H,test,0.181122,300,76.0,75.33,0.67,0.0,1.67,2,0,5.0
+7B,medtb_hybrid_rr,nli,validation,"[0.9, 0.0]",300,74.67,73.67,1.0,-0.33,2.67,4,1,12.0
+7B,medtb_hybrid_rr,nli,test,"[0.9, 0.0]",300,75.33,75.33,0.0,0.0,0.0,0,0,10.3
+7B,medtb_hybrid_rr,src,validation,"[""MedQA""]",300,74.33,73.67,0.67,-1.33,2.67,6,4,16.7
+7B,medtb_hybrid_rr,src,test,"[""MedQA""]",300,75.33,75.33,0.0,-1.33,1.33,2,2,16.7
+14B,R0_ft_filt,always,validation,null,300,78.0,79.0,-1.0,-3.67,1.33,7,10,78.0
+14B,R0_ft_filt,always,test,null,300,80.0,84.0,-4.0,-7.33,-0.67,6,18,82.0
+14B,R0_ft_filt,route,validation,null,300,78.0,79.0,-1.0,-3.0,0.67,3,6,54.7
+14B,R0_ft_filt,route,test,null,300,81.67,84.0,-2.33,-5.33,0.67,6,13,57.0
+14B,R0_ft_filt,H,validation,0.679988,300,79.33,79.0,0.33,0.0,1.0,1,0,1.3
+14B,R0_ft_filt,H,test,0.679988,300,84.33,84.0,0.33,-0.67,1.33,2,1,2.0
+14B,R0_ft_filt,src,validation,"[""AQUA-RAT""]",300,80.0,79.0,1.0,-0.33,2.67,4,1,8.7
+14B,R0_ft_filt,src,test,"[""AQUA-RAT""]",300,83.0,84.0,-1.0,-2.33,0.0,0,3,10.7
+14B,wiki_dense,always,validation,null,300,77.67,79.0,-1.33,-4.67,2.33,12,16,100.0
+14B,wiki_dense,always,test,null,300,81.67,84.0,-2.33,-5.67,0.67,9,16,100.0
+14B,wiki_dense,route,validation,null,300,77.67,79.0,-1.33,-4.33,1.67,8,12,66.7
+14B,wiki_dense,route,test,null,300,83.0,84.0,-1.0,-3.67,1.34,6,9,66.7
+14B,wiki_dense,H,validation,0.679988,300,79.67,79.0,0.67,-0.33,2.0,3,1,1.7
+14B,wiki_dense,H,test,0.679988,300,84.67,84.0,0.67,0.0,1.67,2,0,2.0
+14B,wiki_dense,nli,validation,"[0.8, 0.6]",300,79.67,79.0,0.67,-0.33,2.0,3,1,9.0
+14B,wiki_dense,nli,test,"[0.8, 0.6]",300,84.0,84.0,0.0,0.0,0.0,0,0,4.3
+14B,wiki_dense,src,validation,"[""MedQA"", ""ReClor""]",300,80.0,79.0,1.0,-1.0,3.0,7,4,33.3
+14B,wiki_dense,src,test,"[""MedQA"", ""ReClor""]",300,82.33,84.0,-1.67,-3.68,0.33,3,8,33.3
+14B,wiki_dense_rr,always,validation,null,300,78.67,79.0,-0.33,-3.33,3.0,12,13,100.0
+14B,wiki_dense_rr,always,test,null,300,79.33,84.0,-4.67,-8.33,-1.33,8,22,100.0
+14B,wiki_dense_rr,route,validation,null,300,79.0,79.0,0.0,-2.67,2.67,8,8,66.7
+14B,wiki_dense_rr,route,test,null,300,81.0,84.0,-3.0,-6.0,-0.33,5,14,66.7
+14B,wiki_dense_rr,H,validation,0.679988,300,79.33,79.0,0.33,-0.67,1.33,2,1,1.7
+14B,wiki_dense_rr,H,test,0.679988,300,84.0,84.0,0.0,-1.33,1.33,2,2,2.0
+14B,wiki_dense_rr,nli,validation,"[0.5, 0.0]",300,80.0,79.0,1.0,-0.33,2.33,4,1,34.0
+14B,wiki_dense_rr,nli,test,"[0.5, 0.0]",300,83.0,84.0,-1.0,-2.67,0.67,2,5,31.7
+14B,wiki_dense_rr,src,validation,"[""MedQA"", ""ReClor""]",300,80.0,79.0,1.0,-1.33,3.33,8,5,33.3
+14B,wiki_dense_rr,src,test,"[""MedQA"", ""ReClor""]",300,81.0,84.0,-3.0,-5.67,-0.33,4,13,33.3
+14B,wiki_dense__L3000,always,validation,null,300,76.0,79.0,-3.0,-6.34,0.33,10,19,100.0
+14B,wiki_dense__L3000,always,test,null,300,82.33,84.0,-1.67,-4.67,1.33,8,13,100.0
+14B,wiki_dense__L3000,route,validation,null,300,77.0,79.0,-2.0,-5.0,1.0,7,13,66.7
+14B,wiki_dense__L3000,route,test,null,300,84.0,84.0,0.0,-2.67,2.67,8,8,66.7
+14B,wiki_dense__L3000,H,validation,0.679988,300,79.33,79.0,0.33,-0.67,1.67,2,1,1.7
+14B,wiki_dense__L3000,H,test,0.679988,300,84.67,84.0,0.67,0.0,1.67,2,0,2.0
+14B,wiki_dense__L3000,nli,validation,"[0.95, 0.6]",300,79.0,79.0,0.0,-1.0,1.0,1,1,4.0
+14B,wiki_dense__L3000,nli,test,"[0.95, 0.6]",300,84.0,84.0,0.0,0.0,0.0,0,0,2.7
+14B,wiki_dense__L3000,src,validation,[],300,79.0,79.0,0.0,0.0,0.0,0,0,0.0
+14B,wiki_dense__L3000,src,test,[],300,84.0,84.0,0.0,0.0,0.0,0,0,0.0
+14B,wiki_hybrid_opt_rr,always,validation,null,300,76.33,79.0,-2.67,-6.33,1.0,11,19,100.0
+14B,wiki_hybrid_opt_rr,always,test,null,300,79.67,84.0,-4.33,-7.67,-1.0,8,21,100.0
+14B,wiki_hybrid_opt_rr,route,validation,null,300,77.67,79.0,-1.33,-4.0,1.67,7,11,66.7
+14B,wiki_hybrid_opt_rr,route,test,null,300,81.0,84.0,-3.0,-6.0,-0.33,5,14,66.7
+14B,wiki_hybrid_opt_rr,H,validation,0.679988,300,79.67,79.0,0.67,0.0,1.67,2,0,1.7
+14B,wiki_hybrid_opt_rr,H,test,0.679988,300,83.67,84.0,-0.33,-1.67,0.67,1,2,2.0
+14B,wiki_hybrid_opt_rr,nli,validation,"[0.95, 0.2]",300,79.33,79.0,0.33,0.0,1.0,1,0,7.7
+14B,wiki_hybrid_opt_rr,nli,test,"[0.95, 0.2]",300,83.67,84.0,-0.33,-1.0,0.0,0,1,7.7
+14B,wiki_hybrid_opt_rr,src,validation,[],300,79.0,79.0,0.0,0.0,0.0,0,0,0.0
+14B,wiki_hybrid_opt_rr,src,test,[],300,84.0,84.0,0.0,0.0,0.0,0,0,0.0
+14B,arc_dense,always,validation,null,300,77.67,79.0,-1.33,-4.0,1.33,6,10,100.0
+14B,arc_dense,always,test,null,300,82.33,84.0,-1.67,-5.0,1.33,10,15,100.0
+14B,arc_dense,route,validation,null,300,78.67,79.0,-0.33,-2.33,2.0,5,6,66.7
+14B,arc_dense,route,test,null,300,83.0,84.0,-1.0,-3.33,1.33,5,8,66.7
+14B,arc_dense,H,validation,0.679988,300,79.33,79.0,0.33,0.0,1.0,1,0,1.7
+14B,arc_dense,H,test,0.679988,300,84.33,84.0,0.33,-0.67,1.33,2,1,2.0
+14B,arc_dense,nli,validation,"[0.6, 0.0]",300,79.67,79.0,0.67,0.0,1.67,2,0,13.0
+14B,arc_dense,nli,test,"[0.6, 0.0]",300,83.67,84.0,-0.33,-1.0,0.0,0,1,11.3
+14B,arc_dense,src,validation,[],300,79.0,79.0,0.0,0.0,0.0,0,0,0.0
+14B,arc_dense,src,test,[],300,84.0,84.0,0.0,0.0,0.0,0,0,0.0
+14B,arc_hybrid_opt_rr,always,validation,null,300,76.67,79.0,-2.33,-6.0,1.33,11,18,100.0
+14B,arc_hybrid_opt_rr,always,test,null,300,80.33,84.0,-3.67,-7.0,-0.33,8,19,100.0
+14B,arc_hybrid_opt_rr,route,validation,null,300,77.33,79.0,-1.67,-4.33,1.0,7,12,66.7
+14B,arc_hybrid_opt_rr,route,test,null,300,82.33,84.0,-1.67,-4.33,1.0,6,11,66.7
+14B,arc_hybrid_opt_rr,H,validation,0.679988,300,79.67,79.0,0.67,-0.67,2.0,3,1,1.7
+14B,arc_hybrid_opt_rr,H,test,0.679988,300,84.33,84.0,0.33,-0.67,1.34,2,1,2.0
+14B,arc_hybrid_opt_rr,nli,validation,"[0.6, 0.6]",300,79.33,79.0,0.33,0.0,1.0,1,0,9.7
+14B,arc_hybrid_opt_rr,nli,test,"[0.6, 0.6]",300,83.33,84.0,-0.67,-1.67,0.0,0,2,8.0
+14B,arc_hybrid_opt_rr,src,validation,"[""MedQA""]",300,79.33,79.0,0.33,-1.67,2.67,6,5,16.7
+14B,arc_hybrid_opt_rr,src,test,"[""MedQA""]",300,82.33,84.0,-1.67,-3.67,0.33,2,7,16.7
+14B,gen3B,always,validation,null,300,76.67,79.0,-2.33,-6.34,1.67,17,24,100.0
+14B,gen3B,always,test,null,300,77.67,84.0,-6.33,-10.67,-2.0,14,33,100.0
+14B,gen3B,route,validation,null,300,75.33,79.0,-3.67,-7.0,-0.33,7,18,66.7
+14B,gen3B,route,test,null,300,80.33,84.0,-3.67,-6.33,-1.0,4,15,66.7
+14B,gen3B,H,validation,1.112164,300,79.0,79.0,0.0,0.0,0.0,0,0,0.0
+14B,gen3B,H,test,1.112164,300,84.0,84.0,0.0,0.0,0.0,0,0,0.0
+14B,gen3B,nli,validation,"[0.95, 0.6]",300,78.33,79.0,-0.67,-1.67,0.0,0,2,8.0
+14B,gen3B,nli,test,"[0.95, 0.6]",300,83.67,84.0,-0.33,-1.0,0.0,0,1,7.7
+14B,gen3B,src,validation,"[""AQUA-RAT""]",300,81.67,79.0,2.67,0.67,5.0,9,1,16.7
+14B,gen3B,src,test,"[""AQUA-RAT""]",300,85.33,84.0,1.33,-1.0,4.0,9,5,16.7
+14B,gen7B,always,validation,null,300,78.33,79.0,-0.67,-4.33,2.67,15,17,100.0
+14B,gen7B,always,test,null,300,82.33,84.0,-1.67,-5.33,2.0,14,19,100.0
+14B,gen7B,route,validation,null,300,78.67,79.0,-0.33,-3.33,2.67,9,10,66.7
+14B,gen7B,route,test,null,300,83.33,84.0,-0.67,-3.33,2.0,7,9,66.7
+14B,gen7B,H,validation,0.679988,300,79.67,79.0,0.67,-0.67,2.0,3,1,1.7
+14B,gen7B,H,test,0.679988,300,84.33,84.0,0.33,-0.67,1.33,2,1,2.0
+14B,gen7B,nli,validation,"[0.95, 0.0]",300,80.67,79.0,1.67,0.33,3.0,5,0,25.0
+14B,gen7B,nli,test,"[0.95, 0.0]",300,84.33,84.0,0.33,-1.0,1.67,3,2,18.7
+14B,gen7B,src,validation,"[""AQUA-RAT"", ""ARC-Easy""]",300,80.0,79.0,1.0,-1.0,3.0,6,3,33.3
+14B,gen7B,src,test,"[""AQUA-RAT"", ""ARC-Easy""]",300,84.0,84.0,0.0,-2.0,2.0,5,5,33.3
+14B,gen14B,always,validation,null,300,79.67,79.0,0.67,-2.67,4.0,14,12,100.0
+14B,gen14B,always,test,null,300,83.33,84.0,-0.67,-4.33,3.0,12,14,100.0
+14B,gen14B,route,validation,null,300,77.67,79.0,-1.33,-3.67,1.0,4,8,66.7
+14B,gen14B,route,test,null,300,84.0,84.0,0.0,-2.0,2.0,5,5,66.7
+14B,gen14B,H,validation,0.679988,300,79.33,79.0,0.33,0.0,1.0,1,0,1.7
+14B,gen14B,H,test,0.679988,300,84.0,84.0,0.0,-1.0,1.0,1,1,2.0
+14B,gen14B,nli,validation,"[0.95, 0.6]",300,78.67,79.0,-0.33,-1.0,0.0,0,1,11.0
+14B,gen14B,nli,test,"[0.95, 0.6]",300,84.33,84.0,0.33,0.0,1.0,1,0,6.7
+14B,gen14B,src,validation,"[""AQUA-RAT""]",300,81.67,79.0,2.67,1.0,4.67,8,0,16.7
+14B,gen14B,src,test,"[""AQUA-RAT""]",300,84.67,84.0,0.67,-1.67,3.0,7,5,16.7
+14B,gen32B,always,validation,null,300,80.0,79.0,1.0,-2.33,4.67,16,13,100.0
+14B,gen32B,always,test,null,300,82.33,84.0,-1.67,-4.67,1.33,8,13,100.0
+14B,gen32B,route,validation,null,300,79.67,79.0,0.67,-2.0,3.33,9,7,66.7
+14B,gen32B,route,test,null,300,84.0,84.0,0.0,-2.0,2.0,4,4,66.7
+14B,gen32B,H,validation,0.0489,300,80.0,79.0,1.0,-1.0,3.0,6,3,7.3
+14B,gen32B,H,test,0.0489,300,83.67,84.0,-0.33,-1.67,1.0,2,3,6.0
+14B,gen32B,nli,validation,"[0.8, 0.0]",300,79.67,79.0,0.67,-1.0,2.33,4,2,39.0
+14B,gen32B,nli,test,"[0.8, 0.0]",300,84.33,84.0,0.33,0.0,1.0,1,0,34.7
+14B,gen32B,src,validation,"[""AQUA-RAT"", ""ARC-Easy"", ""MedQA""]",300,81.33,79.0,2.33,-0.33,5.33,14,7,50.0
+14B,gen32B,src,test,"[""AQUA-RAT"", ""ARC-Easy"", ""MedQA""]",300,83.67,84.0,-0.33,-2.67,1.67,5,6,50.0
+14B,oracle_sciq,always,validation,null,300,79.33,79.0,0.33,0.0,1.0,1,0,14.7
+14B,oracle_sciq,always,test,null,300,85.0,84.0,1.0,0.0,2.33,3,0,15.3
+14B,oracle_sciq,route,validation,null,300,79.33,79.0,0.33,0.0,1.0,1,0,14.7
+14B,oracle_sciq,route,test,null,300,85.0,84.0,1.0,0.0,2.33,3,0,15.3
+14B,oracle_sciq,H,validation,6e-06,300,79.33,79.0,0.33,0.0,1.0,1,0,1.7
+14B,oracle_sciq,H,test,6e-06,300,85.0,84.0,1.0,0.0,2.33,3,0,2.3
+14B,oracle_sciq,src,validation,"[""SciQ""]",300,79.33,79.0,0.33,0.0,1.0,1,0,14.7
+14B,oracle_sciq,src,test,"[""SciQ""]",300,85.0,84.0,1.0,0.0,2.33,3,0,15.3
+14B,med_bm25_rr,always,validation,null,300,77.67,79.0,-1.33,-4.67,2.0,11,15,100.0
+14B,med_bm25_rr,always,test,null,300,80.67,84.0,-3.33,-6.67,-0.33,7,17,100.0
+14B,med_bm25_rr,route,validation,null,300,77.67,79.0,-1.33,-4.0,1.33,7,11,66.7
+14B,med_bm25_rr,route,test,null,300,80.33,84.0,-3.67,-6.67,-1.0,3,14,66.7
+14B,med_bm25_rr,H,validation,0.679988,300,79.67,79.0,0.67,-0.67,2.0,3,1,1.7
+14B,med_bm25_rr,H,test,0.679988,300,84.33,84.0,0.33,-0.67,1.33,2,1,2.0
+14B,med_bm25_rr,nli,validation,"[0.95, 0.1]",300,79.33,79.0,0.33,-0.67,1.67,2,1,5.3
+14B,med_bm25_rr,nli,test,"[0.95, 0.1]",300,84.0,84.0,0.0,0.0,0.0,0,0,4.3
+14B,med_bm25_rr,src,validation,"[""MedQA"", ""ReClor""]",300,80.0,79.0,1.0,-1.0,3.33,7,4,33.3
+14B,med_bm25_rr,src,test,"[""MedQA"", ""ReClor""]",300,81.67,84.0,-2.33,-4.67,-0.33,2,9,33.3
+14B,med_dense,always,validation,null,300,78.33,79.0,-0.67,-3.34,2.0,8,10,100.0
+14B,med_dense,always,test,null,300,82.33,84.0,-1.67,-4.33,1.0,6,11,100.0
+14B,med_dense,route,validation,null,300,78.67,79.0,-0.33,-2.67,2.0,6,7,66.7
+14B,med_dense,route,test,null,300,83.0,84.0,-1.0,-3.67,1.33,6,9,66.7
+14B,med_dense,H,validation,0.679988,300,79.33,79.0,0.33,-0.67,1.67,2,1,1.7
+14B,med_dense,H,test,0.679988,300,83.67,84.0,-0.33,-2.0,1.33,2,3,2.0
+14B,med_dense,nli,validation,"[0.95, 0.6]",300,79.0,79.0,0.0,0.0,0.0,0,0,1.0
+14B,med_dense,nli,test,"[0.95, 0.6]",300,84.0,84.0,0.0,0.0,0.0,0,0,1.3
+14B,med_dense,src,validation,"[""ReClor"", ""SciQ""]",300,79.67,79.0,0.67,0.0,1.67,2,0,33.3
+14B,med_dense,src,test,"[""ReClor"", ""SciQ""]",300,83.67,84.0,-0.33,-1.33,0.67,1,2,33.3
+14B,med_dense_rr,always,validation,null,300,78.67,79.0,-0.33,-3.67,3.0,12,13,100.0
+14B,med_dense_rr,always,test,null,300,82.33,84.0,-1.67,-4.67,1.33,8,13,100.0
+14B,med_dense_rr,route,validation,null,300,78.0,79.0,-1.0,-3.33,1.33,7,10,66.7
+14B,med_dense_rr,route,test,null,300,82.33,84.0,-1.67,-4.0,0.67,5,10,66.7
+14B,med_dense_rr,H,validation,0.679988,300,80.0,79.0,1.0,0.0,2.33,3,0,1.7
+14B,med_dense_rr,H,test,0.679988,300,84.33,84.0,0.33,-0.67,1.67,2,1,2.0
+14B,med_dense_rr,nli,validation,"[0.7, 0.0]",300,79.33,79.0,0.33,-1.0,1.67,3,2,23.7
+14B,med_dense_rr,nli,test,"[0.7, 0.0]",300,83.67,84.0,-0.33,-1.34,0.67,1,2,22.3
+14B,med_dense_rr,src,validation,"[""AQUA-RAT"", ""ReClor""]",300,79.67,79.0,0.67,-1.0,2.67,5,3,33.3
+14B,med_dense_rr,src,test,"[""AQUA-RAT"", ""ReClor""]",300,84.0,84.0,0.0,-1.67,1.67,3,3,33.3
+14B,med_hybrid_rr,always,validation,null,300,77.33,79.0,-1.67,-5.0,1.67,11,16,100.0
+14B,med_hybrid_rr,always,test,null,300,81.0,84.0,-3.0,-6.33,0.0,8,17,100.0
+14B,med_hybrid_rr,route,validation,null,300,78.0,79.0,-1.0,-3.67,2.0,8,11,66.7
+14B,med_hybrid_rr,route,test,null,300,80.67,84.0,-3.33,-6.0,-0.67,4,14,66.7
+14B,med_hybrid_rr,H,validation,0.679988,300,80.0,79.0,1.0,-0.33,2.67,4,1,1.7
+14B,med_hybrid_rr,H,test,0.679988,300,84.33,84.0,0.33,-0.67,1.67,2,1,2.0
+14B,med_hybrid_rr,nli,validation,"[0.95, 0.1]",300,79.33,79.0,0.33,-0.67,1.67,2,1,6.0
+14B,med_hybrid_rr,nli,test,"[0.95, 0.1]",300,84.33,84.0,0.33,0.0,1.0,1,0,4.3
+14B,med_hybrid_rr,src,validation,"[""MedQA""]",300,79.67,79.0,0.67,-1.67,3.0,7,5,16.7
+14B,med_hybrid_rr,src,test,"[""MedQA""]",300,82.0,84.0,-2.0,-4.0,0.0,2,8,16.7
+14B,med_hybrid_opt_rr,always,validation,null,300,74.0,79.0,-5.0,-9.33,-1.0,12,27,100.0
+14B,med_hybrid_opt_rr,always,test,null,300,80.0,84.0,-4.0,-7.67,-0.67,8,20,100.0
+14B,med_hybrid_opt_rr,route,validation,null,300,75.67,79.0,-3.33,-6.33,-0.67,6,16,66.7
+14B,med_hybrid_opt_rr,route,test,null,300,79.67,84.0,-4.33,-7.33,-1.33,4,17,66.7
+14B,med_hybrid_opt_rr,H,validation,1.112164,300,79.0,79.0,0.0,0.0,0.0,0,0,0.0
+14B,med_hybrid_opt_rr,H,test,1.112164,300,84.0,84.0,0.0,0.0,0.0,0,0,0.0
+14B,med_hybrid_opt_rr,nli,validation,"[0.95, 0.4]",300,78.67,79.0,-0.33,-1.33,0.67,1,2,6.3
+14B,med_hybrid_opt_rr,nli,test,"[0.95, 0.4]",300,83.67,84.0,-0.33,-1.0,0.0,0,1,5.7
+14B,med_hybrid_opt_rr,src,validation,[],300,79.0,79.0,0.0,0.0,0.0,0,0,0.0
+14B,med_hybrid_opt_rr,src,test,[],300,84.0,84.0,0.0,0.0,0.0,0,0,0.0
+14B,med_hybrid_rr__L3000,always,validation,null,300,76.0,79.0,-3.0,-6.33,0.67,10,19,100.0
+14B,med_hybrid_rr__L3000,always,test,null,300,80.33,84.0,-3.67,-7.0,-0.33,8,19,100.0
+14B,med_hybrid_rr__L3000,route,validation,null,300,76.33,79.0,-2.67,-5.67,0.0,6,14,66.7
+14B,med_hybrid_rr__L3000,route,test,null,300,81.33,84.0,-2.67,-5.67,0.0,6,14,66.7
+14B,med_hybrid_rr__L3000,H,validation,0.679988,300,79.33,79.0,0.33,-0.67,1.33,2,1,1.7
+14B,med_hybrid_rr__L3000,H,test,0.679988,300,84.0,84.0,0.0,-1.33,1.33,2,2,2.0
+14B,med_hybrid_rr__L3000,nli,validation,"[0.95, 0.1]",300,79.33,79.0,0.33,-0.67,1.67,2,1,5.7
+14B,med_hybrid_rr__L3000,nli,test,"[0.95, 0.1]",300,84.33,84.0,0.33,0.0,1.0,1,0,4.3
+14B,med_hybrid_rr__L3000,src,validation,"[""ReClor""]",300,79.33,79.0,0.33,0.0,1.0,1,0,16.7
+14B,med_hybrid_rr__L3000,src,test,"[""ReClor""]",300,83.33,84.0,-0.67,-1.67,0.0,0,2,16.7
+14B,medtb_dense_rr,always,validation,null,300,80.33,79.0,1.33,-2.0,4.67,14,10,100.0
+14B,medtb_dense_rr,always,test,null,300,81.0,84.0,-3.0,-6.33,0.33,9,18,100.0
+14B,medtb_dense_rr,route,validation,null,300,79.0,79.0,0.0,-2.68,3.0,10,10,66.7
+14B,medtb_dense_rr,route,test,null,300,82.0,84.0,-2.0,-4.67,0.67,6,12,66.7
+14B,medtb_dense_rr,H,validation,0.679988,300,80.33,79.0,1.33,0.33,2.67,4,0,1.7
+14B,medtb_dense_rr,H,test,0.679988,300,84.0,84.0,0.0,-1.33,1.33,2,2,2.0
+14B,medtb_dense_rr,nli,validation,"[0.4, 0.0]",300,80.0,79.0,1.0,-0.67,3.0,5,2,29.3
+14B,medtb_dense_rr,nli,test,"[0.4, 0.0]",300,83.0,84.0,-1.0,-3.0,1.0,3,6,27.3
+14B,medtb_dense_rr,src,validation,"[""AQUA-RAT"", ""MedQA"", ""ReClor""]",300,81.67,79.0,2.67,0.0,5.33,12,4,50.0
+14B,medtb_dense_rr,src,test,"[""AQUA-RAT"", ""MedQA"", ""ReClor""]",300,82.33,84.0,-1.67,-4.33,1.0,6,11,50.0
+14B,medtb_hybrid_rr,always,validation,null,300,77.0,79.0,-2.0,-5.33,1.33,10,16,100.0
+14B,medtb_hybrid_rr,always,test,null,300,81.0,84.0,-3.0,-6.67,0.01,9,18,100.0
+14B,medtb_hybrid_rr,route,validation,null,300,77.0,79.0,-2.0,-5.0,1.0,7,13,66.7
+14B,medtb_hybrid_rr,route,test,null,300,81.33,84.0,-2.67,-5.33,0.33,6,14,66.7
+14B,medtb_hybrid_rr,H,validation,0.679988,300,80.0,79.0,1.0,0.0,2.33,3,0,1.7
+14B,medtb_hybrid_rr,H,test,0.679988,300,83.67,84.0,-0.33,-2.0,1.0,2,3,2.0
+14B,medtb_hybrid_rr,nli,validation,"[0.8, 0.1]",300,79.0,79.0,0.0,-1.33,1.33,2,2,11.0
+14B,medtb_hybrid_rr,nli,test,"[0.8, 0.1]",300,83.67,84.0,-0.33,-1.33,0.67,1,2,10.0
+14B,medtb_hybrid_rr,src,validation,"[""MedQA"", ""ReClor""]",300,79.67,79.0,0.67,-1.33,2.67,6,4,33.3
+14B,medtb_hybrid_rr,src,test,"[""MedQA"", ""ReClor""]",300,82.67,84.0,-1.33,-3.67,0.67,3,7,33.3
+32B,R0_ft_filt,always,validation,null,300,83.33,85.0,-1.67,-4.33,1.0,5,10,78.0
+32B,R0_ft_filt,always,test,null,300,85.0,88.67,-3.67,-6.33,-1.0,3,14,82.0
+32B,R0_ft_filt,route,validation,null,300,84.33,85.0,-0.67,-2.67,1.33,4,6,54.7
+32B,R0_ft_filt,route,test,null,300,86.0,88.67,-2.67,-5.0,-0.67,2,10,57.0
+32B,R0_ft_filt,H,validation,5e-06,300,85.33,85.0,0.33,-1.33,2.0,4,3,7.7
+32B,R0_ft_filt,H,test,5e-06,300,87.67,88.67,-1.0,-2.68,0.67,2,5,9.7
+32B,R0_ft_filt,src,validation,"[""ARC-Easy""]",300,85.33,85.0,0.33,0.0,1.0,1,0,15.3
+32B,R0_ft_filt,src,test,"[""ARC-Easy""]",300,88.33,88.67,-0.33,-1.0,0.0,0,1,16.0
+32B,wiki_dense,always,validation,null,300,83.33,85.0,-1.67,-4.33,0.67,5,10,100.0
+32B,wiki_dense,always,test,null,300,86.33,88.67,-2.33,-5.0,0.33,6,13,100.0
+32B,wiki_dense,route,validation,null,300,84.33,85.0,-0.67,-2.67,1.01,4,6,66.7
+32B,wiki_dense,route,test,null,300,87.67,88.67,-1.0,-3.33,1.0,4,7,66.7
+32B,wiki_dense,H,validation,0.916914,300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,wiki_dense,H,test,0.916914,300,88.67,88.67,0.0,0.0,0.0,0,0,0.3
+32B,wiki_dense,nli,validation,"[0.9, 0.6]",300,85.0,85.0,0.0,-1.0,1.0,1,1,6.3
+32B,wiki_dense,nli,test,"[0.9, 0.6]",300,88.67,88.67,0.0,0.0,0.0,0,0,3.7
+32B,wiki_dense,src,validation,"[""MedQA""]",300,85.33,85.0,0.33,-1.0,2.0,3,2,16.7
+32B,wiki_dense,src,test,"[""MedQA""]",300,87.0,88.67,-1.67,-3.67,0.0,1,6,16.7
+32B,wiki_dense_rr,always,validation,null,300,83.0,85.0,-2.0,-4.67,0.67,6,12,100.0
+32B,wiki_dense_rr,always,test,null,300,84.67,88.67,-4.0,-7.0,-1.0,4,16,100.0
+32B,wiki_dense_rr,route,validation,null,300,85.0,85.0,0.0,-2.33,2.0,6,6,66.7
+32B,wiki_dense_rr,route,test,null,300,86.0,88.67,-2.67,-5.33,0.0,4,12,66.7
+32B,wiki_dense_rr,H,validation,0.916914,300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,wiki_dense_rr,H,test,0.916914,300,88.67,88.67,0.0,0.0,0.0,0,0,0.3
+32B,wiki_dense_rr,nli,validation,"[0.8, 0.6]",300,85.33,85.0,0.33,0.0,1.0,1,0,7.0
+32B,wiki_dense_rr,nli,test,"[0.8, 0.6]",300,88.33,88.67,-0.33,-1.0,0.0,0,1,7.0
+32B,wiki_dense_rr,src,validation,[],300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,wiki_dense_rr,src,test,[],300,88.67,88.67,0.0,0.0,0.0,0,0,0.0
+32B,wiki_dense__L3000,always,validation,null,300,82.0,85.0,-3.0,-5.67,-0.67,3,12,100.0
+32B,wiki_dense__L3000,always,test,null,300,87.0,88.67,-1.67,-4.0,0.67,4,9,100.0
+32B,wiki_dense__L3000,route,validation,null,300,83.33,85.0,-1.67,-3.67,0.0,2,7,66.7
+32B,wiki_dense__L3000,route,test,null,300,88.0,88.67,-0.67,-2.33,1.0,3,5,66.7
+32B,wiki_dense__L3000,H,validation,0.916914,300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,wiki_dense__L3000,H,test,0.916914,300,88.67,88.67,0.0,0.0,0.0,0,0,0.3
+32B,wiki_dense__L3000,nli,validation,"[0.95, 0.6]",300,84.67,85.0,-0.33,-1.0,0.0,0,1,4.0
+32B,wiki_dense__L3000,nli,test,"[0.95, 0.6]",300,88.67,88.67,0.0,0.0,0.0,0,0,2.7
+32B,wiki_dense__L3000,src,validation,[],300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,wiki_dense__L3000,src,test,[],300,88.67,88.67,0.0,0.0,0.0,0,0,0.0
+32B,wiki_hybrid_opt_rr,always,validation,null,300,81.33,85.0,-3.67,-7.0,-0.67,6,17,100.0
+32B,wiki_hybrid_opt_rr,always,test,null,300,84.33,88.67,-4.33,-7.33,-1.67,3,16,100.0
+32B,wiki_hybrid_opt_rr,route,validation,null,300,83.67,85.0,-1.33,-4.0,1.0,5,9,66.7
+32B,wiki_hybrid_opt_rr,route,test,null,300,85.0,88.67,-3.67,-6.33,-1.0,3,14,66.7
+32B,wiki_hybrid_opt_rr,H,validation,0.916914,300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,wiki_hybrid_opt_rr,H,test,0.916914,300,88.67,88.67,0.0,0.0,0.0,0,0,0.3
+32B,wiki_hybrid_opt_rr,nli,validation,"[0.95, 0.6]",300,85.0,85.0,0.0,0.0,0.0,0,0,4.0
+32B,wiki_hybrid_opt_rr,nli,test,"[0.95, 0.6]",300,88.67,88.67,0.0,0.0,0.0,0,0,4.3
+32B,wiki_hybrid_opt_rr,src,validation,[],300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,wiki_hybrid_opt_rr,src,test,[],300,88.67,88.67,0.0,0.0,0.0,0,0,0.0
+32B,arc_dense,always,validation,null,300,82.0,85.0,-3.0,-6.33,0.0,6,15,100.0
+32B,arc_dense,always,test,null,300,84.67,88.67,-4.0,-6.67,-1.33,2,14,100.0
+32B,arc_dense,route,validation,null,300,82.67,85.0,-2.33,-5.0,0.0,3,10,66.7
+32B,arc_dense,route,test,null,300,85.67,88.67,-3.0,-5.33,-1.0,1,10,66.7
+32B,arc_dense,H,validation,0.916914,300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,arc_dense,H,test,0.916914,300,88.67,88.67,0.0,0.0,0.0,0,0,0.3
+32B,arc_dense,nli,validation,"[0.95, 0.0]",300,85.33,85.0,0.33,0.0,1.0,1,0,3.0
+32B,arc_dense,nli,test,"[0.95, 0.0]",300,88.33,88.67,-0.33,-1.0,0.0,0,1,4.3
+32B,arc_dense,src,validation,[],300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,arc_dense,src,test,[],300,88.67,88.67,0.0,0.0,0.0,0,0,0.0
+32B,arc_hybrid_opt_rr,always,validation,null,300,78.67,85.0,-6.33,-9.33,-3.67,1,20,100.0
+32B,arc_hybrid_opt_rr,always,test,null,300,84.67,88.67,-4.0,-6.67,-1.33,3,15,100.0
+32B,arc_hybrid_opt_rr,route,validation,null,300,80.33,85.0,-4.67,-7.33,-2.0,1,15,66.7
+32B,arc_hybrid_opt_rr,route,test,null,300,87.0,88.67,-1.67,-4.0,0.33,3,8,66.7
+32B,arc_hybrid_opt_rr,H,validation,0.916914,300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,arc_hybrid_opt_rr,H,test,0.916914,300,88.67,88.67,0.0,0.0,0.0,0,0,0.3
+32B,arc_hybrid_opt_rr,nli,validation,"[0.95, 0.6]",300,85.0,85.0,0.0,0.0,0.0,0,0,1.7
+32B,arc_hybrid_opt_rr,nli,test,"[0.95, 0.6]",300,88.67,88.67,0.0,0.0,0.0,0,0,2.0
+32B,arc_hybrid_opt_rr,src,validation,[],300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,arc_hybrid_opt_rr,src,test,[],300,88.67,88.67,0.0,0.0,0.0,0,0,0.0
+32B,gen3B,always,validation,null,300,78.33,85.0,-6.67,-10.34,-2.67,9,29,100.0
+32B,gen3B,always,test,null,300,79.67,88.67,-9.0,-13.33,-5.0,7,34,100.0
+32B,gen3B,route,validation,null,300,80.33,85.0,-4.67,-7.67,-1.33,5,19,66.7
+32B,gen3B,route,test,null,300,84.67,88.67,-4.0,-6.67,-1.33,3,15,66.7
+32B,gen3B,H,validation,0.916914,300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,gen3B,H,test,0.916914,300,89.0,88.67,0.33,0.0,1.0,1,0,0.3
+32B,gen3B,nli,validation,"[0.95, 0.6]",300,84.67,85.0,-0.33,-1.0,0.0,0,1,8.0
+32B,gen3B,nli,test,"[0.95, 0.6]",300,88.33,88.67,-0.33,-1.0,0.0,0,1,7.7
+32B,gen3B,src,validation,"[""AQUA-RAT""]",300,86.0,85.0,1.0,-0.33,2.67,4,1,16.7
+32B,gen3B,src,test,"[""AQUA-RAT""]",300,88.33,88.67,-0.33,-2.01,1.33,3,4,16.7
+32B,gen7B,always,validation,null,300,82.33,85.0,-2.67,-6.01,0.67,10,18,100.0
+32B,gen7B,always,test,null,300,85.0,88.67,-3.67,-7.0,-0.33,7,18,100.0
+32B,gen7B,route,validation,null,300,83.67,85.0,-1.33,-4.0,1.33,7,11,66.7
+32B,gen7B,route,test,null,300,87.67,88.67,-1.0,-3.67,1.33,5,8,66.7
+32B,gen7B,H,validation,0.012062,300,85.67,85.0,0.67,-1.33,2.67,5,3,5.0
+32B,gen7B,H,test,0.012062,300,89.0,88.67,0.33,-1.0,1.67,3,2,4.7
+32B,gen7B,nli,validation,"[0.9, 0.0]",300,85.33,85.0,0.33,-0.67,1.67,2,1,30.3
+32B,gen7B,nli,test,"[0.9, 0.0]",300,88.33,88.67,-0.33,-2.0,1.0,2,3,27.7
+32B,gen7B,src,validation,"[""AQUA-RAT"", ""ARC-Easy""]",300,85.67,85.0,0.67,-1.0,2.33,4,2,33.3
+32B,gen7B,src,test,"[""AQUA-RAT"", ""ARC-Easy""]",300,87.67,88.67,-1.0,-2.67,0.33,1,4,33.3
+32B,gen14B,always,validation,null,300,83.0,85.0,-2.0,-5.33,1.33,9,15,100.0
+32B,gen14B,always,test,null,300,86.33,88.67,-2.33,-5.33,0.67,8,15,100.0
+32B,gen14B,route,validation,null,300,83.67,85.0,-1.33,-4.0,1.01,5,9,66.7
+32B,gen14B,route,test,null,300,87.67,88.67,-1.0,-3.33,1.0,4,7,66.7
+32B,gen14B,H,validation,0.916914,300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,gen14B,H,test,0.916914,300,88.67,88.67,0.0,0.0,0.0,0,0,0.3
+32B,gen14B,nli,validation,"[0.95, 0.6]",300,84.33,85.0,-0.67,-1.67,0.0,0,2,11.0
+32B,gen14B,nli,test,"[0.95, 0.6]",300,88.67,88.67,0.0,0.0,0.0,0,0,6.7
+32B,gen14B,src,validation,"[""AQUA-RAT""]",300,85.67,85.0,0.67,-1.0,2.33,4,2,16.7
+32B,gen14B,src,test,"[""AQUA-RAT""]",300,88.67,88.67,0.0,-1.67,1.67,3,3,16.7
+32B,gen32B,always,validation,null,300,85.0,85.0,0.0,-2.67,2.67,8,8,100.0
+32B,gen32B,always,test,null,300,85.67,88.67,-3.0,-6.0,-0.33,5,14,100.0
+32B,gen32B,route,validation,null,300,85.67,85.0,0.67,-1.33,2.67,6,4,66.7
+32B,gen32B,route,test,null,300,87.33,88.67,-1.33,-3.67,0.67,3,7,66.7
+32B,gen32B,H,validation,0.012062,300,85.67,85.0,0.67,-1.0,2.33,4,2,5.0
+32B,gen32B,H,test,0.012062,300,88.67,88.67,0.0,-1.67,1.67,3,3,4.7
+32B,gen32B,nli,validation,"[0.0, 0.0]",300,85.67,85.0,0.67,-1.33,2.67,6,4,66.7
+32B,gen32B,nli,test,"[0.0, 0.0]",300,87.33,88.67,-1.33,-3.33,0.67,3,7,66.7
+32B,gen32B,src,validation,"[""AQUA-RAT"", ""ARC-Easy"", ""MedQA""]",300,86.67,85.0,1.67,-0.33,4.0,7,2,50.0
+32B,gen32B,src,test,"[""AQUA-RAT"", ""ARC-Easy"", ""MedQA""]",300,86.33,88.67,-2.33,-4.33,-0.33,2,9,50.0
+32B,oracle_sciq,always,validation,null,300,85.0,85.0,0.0,0.0,0.0,0,0,14.7
+32B,oracle_sciq,always,test,null,300,89.33,88.67,0.67,0.0,1.67,2,0,15.3
+32B,oracle_sciq,route,validation,null,300,85.0,85.0,0.0,0.0,0.0,0,0,14.7
+32B,oracle_sciq,route,test,null,300,89.33,88.67,0.67,0.0,1.67,2,0,15.3
+32B,oracle_sciq,H,validation,0.916914,300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,oracle_sciq,H,test,0.916914,300,88.67,88.67,0.0,0.0,0.0,0,0,0.0
+32B,oracle_sciq,src,validation,[],300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,oracle_sciq,src,test,[],300,88.67,88.67,0.0,0.0,0.0,0,0,0.0
+32B,med_bm25_rr,always,validation,null,300,82.33,85.0,-2.67,-5.0,-0.67,2,10,100.0
+32B,med_bm25_rr,always,test,null,300,85.33,88.67,-3.33,-6.0,-1.0,2,12,100.0
+32B,med_bm25_rr,route,validation,null,300,83.33,85.0,-1.67,-3.67,0.01,2,7,66.7
+32B,med_bm25_rr,route,test,null,300,86.67,88.67,-2.0,-4.0,-0.33,1,7,66.7
+32B,med_bm25_rr,H,validation,0.916914,300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,med_bm25_rr,H,test,0.916914,300,88.67,88.67,0.0,0.0,0.0,0,0,0.3
+32B,med_bm25_rr,nli,validation,"[0.95, 0.0]",300,85.0,85.0,0.0,-1.0,1.0,1,1,11.7
+32B,med_bm25_rr,nli,test,"[0.95, 0.0]",300,88.33,88.67,-0.33,-1.0,0.0,0,1,11.0
+32B,med_bm25_rr,src,validation,[],300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,med_bm25_rr,src,test,[],300,88.67,88.67,0.0,0.0,0.0,0,0,0.0
+32B,med_dense,always,validation,null,300,84.67,85.0,-0.33,-3.0,2.33,8,9,100.0
+32B,med_dense,always,test,null,300,85.33,88.67,-3.33,-5.67,-1.33,1,11,100.0
+32B,med_dense,route,validation,null,300,85.67,85.0,0.67,-1.67,3.0,7,5,66.7
+32B,med_dense,route,test,null,300,86.67,88.67,-2.0,-4.0,-0.33,1,7,66.7
+32B,med_dense,H,validation,5e-06,300,86.0,85.0,1.0,-1.33,3.0,7,4,11.7
+32B,med_dense,H,test,5e-06,300,86.67,88.67,-2.0,-4.0,-0.33,1,7,11.3
+32B,med_dense,nli,validation,"[0.0, 0.0]",300,85.67,85.0,0.67,-1.67,3.0,7,5,66.7
+32B,med_dense,nli,test,"[0.0, 0.0]",300,86.67,88.67,-2.0,-4.0,-0.33,1,7,66.7
+32B,med_dense,src,validation,"[""ARC-Easy"", ""MedQA""]",300,86.67,85.0,1.67,-0.01,3.67,7,2,33.3
+32B,med_dense,src,test,"[""ARC-Easy"", ""MedQA""]",300,87.0,88.67,-1.67,-3.33,-0.33,0,5,33.3
+32B,med_dense_rr,always,validation,null,300,84.67,85.0,-0.33,-2.67,2.33,7,8,100.0
+32B,med_dense_rr,always,test,null,300,87.0,88.67,-1.67,-4.0,0.33,3,8,100.0
+32B,med_dense_rr,route,validation,null,300,85.33,85.0,0.33,-2.0,2.67,6,5,66.7
+32B,med_dense_rr,route,test,null,300,87.33,88.67,-1.33,-3.33,0.33,2,6,66.7
+32B,med_dense_rr,H,validation,5e-06,300,85.33,85.0,0.33,-2.0,2.67,6,5,11.7
+32B,med_dense_rr,H,test,5e-06,300,87.33,88.67,-1.33,-3.33,0.67,2,6,11.3
+32B,med_dense_rr,nli,validation,"[0.7, 0.0]",300,85.67,85.0,0.67,0.0,1.67,2,0,23.7
+32B,med_dense_rr,nli,test,"[0.7, 0.0]",300,88.33,88.67,-0.33,-1.0,0.0,0,1,22.3
+32B,med_dense_rr,src,validation,"[""MedQA""]",300,85.67,85.0,0.67,-1.33,2.67,5,3,16.7
+32B,med_dense_rr,src,test,"[""MedQA""]",300,87.33,88.67,-1.33,-3.0,0.0,1,5,16.7
+32B,med_hybrid_rr,always,validation,null,300,83.33,85.0,-1.67,-4.33,1.0,5,10,100.0
+32B,med_hybrid_rr,always,test,null,300,86.0,88.67,-2.67,-5.0,-0.67,2,10,100.0
+32B,med_hybrid_rr,route,validation,null,300,84.0,85.0,-1.0,-3.33,1.33,5,8,66.7
+32B,med_hybrid_rr,route,test,null,300,86.67,88.67,-2.0,-4.33,0.0,2,8,66.7
+32B,med_hybrid_rr,H,validation,0.916914,300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,med_hybrid_rr,H,test,0.916914,300,88.67,88.67,0.0,0.0,0.0,0,0,0.3
+32B,med_hybrid_rr,nli,validation,"[0.9, 0.0]",300,85.0,85.0,0.0,-1.0,1.0,1,1,16.7
+32B,med_hybrid_rr,nli,test,"[0.9, 0.0]",300,88.33,88.67,-0.33,-1.0,0.0,0,1,11.7
+32B,med_hybrid_rr,src,validation,"[""MedQA""]",300,85.33,85.0,0.33,-1.67,2.33,5,4,16.7
+32B,med_hybrid_rr,src,test,"[""MedQA""]",300,87.33,88.67,-1.33,-3.0,0.33,1,5,16.7
+32B,med_hybrid_opt_rr,always,validation,null,300,80.0,85.0,-5.0,-8.0,-2.0,3,18,100.0
+32B,med_hybrid_opt_rr,always,test,null,300,84.67,88.67,-4.0,-7.0,-1.33,3,15,100.0
+32B,med_hybrid_opt_rr,route,validation,null,300,81.33,85.0,-3.67,-6.33,-1.0,3,14,66.7
+32B,med_hybrid_opt_rr,route,test,null,300,85.67,88.67,-3.0,-5.33,-0.67,2,11,66.7
+32B,med_hybrid_opt_rr,H,validation,0.916914,300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,med_hybrid_opt_rr,H,test,0.916914,300,88.67,88.67,0.0,0.0,0.0,0,0,0.3
+32B,med_hybrid_opt_rr,nli,validation,"[0.95, 0.6]",300,84.33,85.0,-0.67,-1.67,0.0,0,2,4.7
+32B,med_hybrid_opt_rr,nli,test,"[0.95, 0.6]",300,88.67,88.67,0.0,0.0,0.0,0,0,4.0
+32B,med_hybrid_opt_rr,src,validation,[],300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,med_hybrid_opt_rr,src,test,[],300,88.67,88.67,0.0,0.0,0.0,0,0,0.0
+32B,med_hybrid_rr__L3000,always,validation,null,300,83.67,85.0,-1.33,-3.67,1.0,5,9,100.0
+32B,med_hybrid_rr__L3000,always,test,null,300,85.0,88.67,-3.67,-6.0,-1.67,1,12,100.0
+32B,med_hybrid_rr__L3000,route,validation,null,300,85.0,85.0,0.0,-2.0,2.0,5,5,66.7
+32B,med_hybrid_rr__L3000,route,test,null,300,86.33,88.67,-2.33,-4.33,-0.66,1,8,66.7
+32B,med_hybrid_rr__L3000,H,validation,0.012062,300,85.33,85.0,0.33,-1.0,1.67,3,2,5.0
+32B,med_hybrid_rr__L3000,H,test,0.012062,300,88.0,88.67,-0.67,-2.0,0.67,1,3,4.7
+32B,med_hybrid_rr__L3000,nli,validation,"[0.9, 0.0]",300,85.0,85.0,0.0,-1.0,1.0,1,1,16.7
+32B,med_hybrid_rr__L3000,nli,test,"[0.9, 0.0]",300,88.33,88.67,-0.33,-1.0,0.0,0,1,11.7
+32B,med_hybrid_rr__L3000,src,validation,"[""MedQA""]",300,86.0,85.0,1.0,-0.33,2.67,4,1,16.7
+32B,med_hybrid_rr__L3000,src,test,"[""MedQA""]",300,86.67,88.67,-2.0,-3.67,-0.67,0,6,16.7
+32B,medtb_dense_rr,always,validation,null,300,84.33,85.0,-0.67,-3.33,2.0,8,10,100.0
+32B,medtb_dense_rr,always,test,null,300,86.33,88.67,-2.33,-5.0,0.0,4,11,100.0
+32B,medtb_dense_rr,route,validation,null,300,85.33,85.0,0.33,-2.0,2.67,7,6,66.7
+32B,medtb_dense_rr,route,test,null,300,87.33,88.67,-1.33,-3.33,0.67,3,7,66.7
+32B,medtb_dense_rr,H,validation,5e-06,300,85.33,85.0,0.33,-2.0,2.67,7,6,11.7
+32B,medtb_dense_rr,H,test,5e-06,300,88.33,88.67,-0.33,-2.0,1.33,3,4,11.3
+32B,medtb_dense_rr,nli,validation,"[0.7, 0.0]",300,86.0,85.0,1.0,-0.33,2.67,4,1,19.3
+32B,medtb_dense_rr,nli,test,"[0.7, 0.0]",300,88.33,88.67,-0.33,-2.0,1.0,2,3,17.3
+32B,medtb_dense_rr,src,validation,"[""MedQA""]",300,85.67,85.0,0.67,-1.33,2.67,6,4,16.7
+32B,medtb_dense_rr,src,test,"[""MedQA""]",300,87.67,88.67,-1.0,-2.67,0.67,2,5,16.7
+32B,medtb_hybrid_rr,always,validation,null,300,82.0,85.0,-3.0,-6.0,-0.33,5,14,100.0
+32B,medtb_hybrid_rr,always,test,null,300,85.67,88.67,-3.0,-5.67,-0.33,4,13,100.0
+32B,medtb_hybrid_rr,route,validation,null,300,83.33,85.0,-1.67,-4.0,0.67,4,9,66.7
+32B,medtb_hybrid_rr,route,test,null,300,87.33,88.67,-1.33,-3.67,1.0,4,8,66.7
+32B,medtb_hybrid_rr,H,validation,0.916914,300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,medtb_hybrid_rr,H,test,0.916914,300,88.67,88.67,0.0,0.0,0.0,0,0,0.3
+32B,medtb_hybrid_rr,nli,validation,"[0.95, 0.6]",300,85.33,85.0,0.33,0.0,1.0,1,0,2.0
+32B,medtb_hybrid_rr,nli,test,"[0.95, 0.6]",300,88.33,88.67,-0.33,-1.0,0.0,0,1,2.3
+32B,medtb_hybrid_rr,src,validation,[],300,85.0,85.0,0.0,0.0,0.0,0,0,0.0
+32B,medtb_hybrid_rr,src,test,[],300,88.67,88.67,0.0,0.0,0.0,0,0,0.0

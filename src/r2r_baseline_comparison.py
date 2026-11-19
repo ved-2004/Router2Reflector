@@ -192,6 +192,14 @@ def main():
     test_matrix = pd.read_csv(args.feature_matrix)
     test_csv = pd.read_csv(args.test_csv)
 
+    # Router predictions are matched to test rows by position; fail loudly if the two files disagree.
+    if len(test_matrix) != len(test_csv) or (
+        "original_question" in test_matrix.columns
+        and not (test_matrix["original_question"].astype(str).str.strip().values
+                 == test_csv["question"].astype(str).str.strip().values).all()
+    ):
+        raise RuntimeError("Feature matrix rows are not aligned with test_csv rows (question text mismatch).")
+
     feat_cols = router["imputer"].feature_names_in_.tolist()
     router_preds = router.predict(test_matrix[feat_cols])
     print(f"    {len(test_matrix)} questions | Router flags {sum(router_preds)} for RAG")
