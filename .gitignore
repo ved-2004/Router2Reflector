@@ -32,3 +32,8 @@ Thumbs.db
 
 # Slurm / cluster logs
 logs/venv_carc/
+
+# --- Nov 2026 evaluation: large, regenerable artifacts (kept on the Modal volume r2r-rag-eval) ---
+colab/*.zip
+rag_eval/results/retrieval/
+rag_eval/results/contexts/
