@@ -1,0 +1,157 @@
+option,size,subset,n,acc_direct,acc_ctx,fixed,broken
+wiki_dense,3B,answer-bearing (discrim),62,95.2,96.8,2,1
+wiki_dense,3B,gold present (recall),85,90.6,91.8,3,2
+wiki_dense,3B,gold absent,454,68.7,65.6,23,37
+wiki_dense,7B,answer-bearing (discrim),62,91.9,98.4,4,0
+wiki_dense,7B,gold present (recall),85,89.4,97.6,7,0
+wiki_dense,7B,gold absent,454,75.1,73.3,13,21
+wiki_dense,14B,answer-bearing (discrim),62,90.3,96.8,4,0
+wiki_dense,14B,gold present (recall),85,90.6,94.1,5,2
+wiki_dense,14B,gold absent,454,83.3,80.0,12,27
+wiki_dense,32B,answer-bearing (discrim),62,95.2,96.8,1,0
+wiki_dense,32B,gold present (recall),85,95.3,97.6,2,0
+wiki_dense,32B,gold absent,454,87.2,85.0,8,18
+wiki_dense_rr,3B,answer-bearing (discrim),60,96.7,96.7,1,1
+wiki_dense_rr,3B,gold present (recall),87,94.3,93.1,2,3
+wiki_dense_rr,3B,gold absent,452,67.9,66.4,22,29
+wiki_dense_rr,7B,answer-bearing (discrim),60,96.7,98.3,2,1
+wiki_dense_rr,7B,gold present (recall),87,94.3,97.7,4,1
+wiki_dense_rr,7B,gold absent,452,74.1,71.7,11,22
+wiki_dense_rr,14B,answer-bearing (discrim),60,93.3,96.7,3,1
+wiki_dense_rr,14B,gold present (recall),87,94.3,95.4,3,2
+wiki_dense_rr,14B,gold absent,452,82.5,79.4,14,28
+wiki_dense_rr,32B,answer-bearing (discrim),60,95.0,95.0,1,1
+wiki_dense_rr,32B,gold present (recall),87,95.4,95.4,1,1
+wiki_dense_rr,32B,gold absent,452,87.2,85.2,9,18
+wiki_hybrid_opt_rr,3B,answer-bearing (discrim),67,97.0,94.0,0,2
+wiki_hybrid_opt_rr,3B,gold present (recall),124,89.5,87.9,5,7
+wiki_hybrid_opt_rr,3B,gold absent,415,67.0,57.1,15,56
+wiki_hybrid_opt_rr,7B,answer-bearing (discrim),67,95.5,97.0,1,0
+wiki_hybrid_opt_rr,7B,gold present (recall),124,91.9,92.7,6,5
+wiki_hybrid_opt_rr,7B,gold absent,415,73.0,66.5,13,40
+wiki_hybrid_opt_rr,14B,answer-bearing (discrim),67,95.5,95.5,1,1
+wiki_hybrid_opt_rr,14B,gold present (recall),124,96.0,94.4,3,5
+wiki_hybrid_opt_rr,14B,gold absent,415,81.0,76.6,12,30
+wiki_hybrid_opt_rr,32B,answer-bearing (discrim),67,97.0,97.0,1,1
+wiki_hybrid_opt_rr,32B,gold present (recall),124,96.8,96.8,3,3
+wiki_hybrid_opt_rr,32B,gold absent,415,86.0,81.4,6,25
+arc_dense,3B,answer-bearing (discrim),50,94.0,98.0,2,0
+arc_dense,3B,gold present (recall),60,93.3,96.7,3,1
+arc_dense,3B,gold absent,479,69.5,66.6,19,33
+arc_dense,7B,answer-bearing (discrim),50,98.0,98.0,0,0
+arc_dense,7B,gold present (recall),60,96.7,96.7,0,0
+arc_dense,7B,gold absent,479,74.9,72.9,15,25
+arc_dense,14B,answer-bearing (discrim),50,96.0,100.0,2,0
+arc_dense,14B,gold present (recall),60,96.7,100.0,2,0
+arc_dense,14B,gold absent,479,82.9,81.0,9,18
+arc_dense,32B,answer-bearing (discrim),50,100.0,100.0,0,0
+arc_dense,32B,gold present (recall),60,100.0,100.0,0,0
+arc_dense,32B,gold absent,479,87.1,83.7,6,22
+arc_hybrid_opt_rr,3B,answer-bearing (discrim),69,92.8,92.8,1,1
+arc_hybrid_opt_rr,3B,gold present (recall),118,89.8,86.4,3,7
+arc_hybrid_opt_rr,3B,gold absent,421,67.2,61.3,18,43
+arc_hybrid_opt_rr,7B,answer-bearing (discrim),69,95.7,98.6,3,1
+arc_hybrid_opt_rr,7B,gold present (recall),118,90.7,93.2,7,4
+arc_hybrid_opt_rr,7B,gold absent,421,73.6,69.1,11,30
+arc_hybrid_opt_rr,14B,answer-bearing (discrim),69,94.2,98.6,3,0
+arc_hybrid_opt_rr,14B,gold present (recall),118,93.2,93.2,5,5
+arc_hybrid_opt_rr,14B,gold absent,421,81.9,77.2,9,29
+arc_hybrid_opt_rr,32B,answer-bearing (discrim),69,97.1,100.0,2,0
+arc_hybrid_opt_rr,32B,gold present (recall),118,96.6,94.1,2,5
+arc_hybrid_opt_rr,32B,gold absent,421,86.2,80.5,2,26
+R0_ft_filt,3B,answer-bearing (discrim),31,96.8,96.8,1,1
+R0_ft_filt,3B,gold present (recall),40,92.5,92.5,2,2
+R0_ft_filt,3B,gold absent,404,72.8,68.6,17,34
+R0_ft_filt,7B,answer-bearing (discrim),31,93.5,100.0,2,0
+R0_ft_filt,7B,gold present (recall),40,95.0,100.0,2,0
+R0_ft_filt,7B,gold absent,404,79.0,74.8,8,25
+R0_ft_filt,14B,answer-bearing (discrim),31,90.3,93.5,2,1
+R0_ft_filt,14B,gold present (recall),40,92.5,92.5,2,2
+R0_ft_filt,14B,gold absent,404,85.4,81.4,8,24
+R0_ft_filt,32B,answer-bearing (discrim),31,93.5,93.5,1,1
+R0_ft_filt,32B,gold present (recall),40,95.0,95.0,1,1
+R0_ft_filt,32B,gold absent,404,88.6,85.1,7,21
+med_dense,3B,answer-bearing (discrim),36,94.4,94.4,1,1
+med_dense,3B,gold present (recall),50,92.0,90.0,2,3
+med_dense,3B,gold absent,489,70.1,68.9,26,32
+med_dense,7B,answer-bearing (discrim),36,88.9,91.7,1,0
+med_dense,7B,gold present (recall),50,88.0,90.0,2,1
+med_dense,7B,gold absent,489,76.3,73.4,11,25
+med_dense,14B,answer-bearing (discrim),36,91.7,97.2,2,0
+med_dense,14B,gold present (recall),50,92.0,98.0,3,0
+med_dense,14B,gold absent,489,83.6,82.0,10,18
+med_dense,32B,answer-bearing (discrim),36,94.4,97.2,1,0
+med_dense,32B,gold present (recall),50,94.0,96.0,1,0
+med_dense,32B,gold absent,489,87.9,85.9,7,17
+med_dense_rr,3B,answer-bearing (discrim),35,94.3,91.4,0,1
+med_dense_rr,3B,gold present (recall),53,88.7,86.8,2,3
+med_dense_rr,3B,gold absent,486,70.4,67.3,25,40
+med_dense_rr,7B,answer-bearing (discrim),35,91.4,97.1,3,1
+med_dense_rr,7B,gold present (recall),53,88.7,92.5,4,2
+med_dense_rr,7B,gold absent,486,76.1,71.8,11,32
+med_dense_rr,14B,answer-bearing (discrim),35,94.3,97.1,1,0
+med_dense_rr,14B,gold present (recall),53,92.5,92.5,2,2
+med_dense_rr,14B,gold absent,486,83.5,81.9,13,21
+med_dense_rr,32B,answer-bearing (discrim),35,94.3,97.1,1,0
+med_dense_rr,32B,gold present (recall),53,94.3,96.2,1,0
+med_dense_rr,32B,gold absent,486,87.9,87.2,8,11
+med_hybrid_rr,3B,answer-bearing (discrim),43,95.3,93.0,0,1
+med_hybrid_rr,3B,gold present (recall),55,90.9,89.1,2,3
+med_hybrid_rr,3B,gold absent,484,70.0,65.7,20,41
+med_hybrid_rr,7B,answer-bearing (discrim),43,90.7,93.0,4,3
+med_hybrid_rr,7B,gold present (recall),55,90.9,92.7,4,3
+med_hybrid_rr,7B,gold absent,484,75.8,72.3,13,30
+med_hybrid_rr,14B,answer-bearing (discrim),43,93.0,97.7,2,0
+med_hybrid_rr,14B,gold present (recall),55,92.7,96.4,3,1
+med_hybrid_rr,14B,gold absent,484,83.5,80.0,12,29
+med_hybrid_rr,32B,answer-bearing (discrim),43,93.0,95.3,1,0
+med_hybrid_rr,32B,gold present (recall),55,94.5,96.4,1,0
+med_hybrid_rr,32B,gold absent,484,87.8,85.1,5,18
+med_hybrid_opt_rr,3B,answer-bearing (discrim),67,88.1,85.1,2,4
+med_hybrid_opt_rr,3B,gold present (recall),118,86.4,81.4,6,12
+med_hybrid_opt_rr,3B,gold absent,421,68.2,62.9,22,44
+med_hybrid_opt_rr,7B,answer-bearing (discrim),67,85.1,88.1,3,1
+med_hybrid_opt_rr,7B,gold present (recall),118,86.4,88.1,5,3
+med_hybrid_opt_rr,7B,gold absent,421,74.8,67.7,13,43
+med_hybrid_opt_rr,14B,answer-bearing (discrim),67,91.0,92.5,2,1
+med_hybrid_opt_rr,14B,gold present (recall),118,91.5,89.8,3,5
+med_hybrid_opt_rr,14B,gold absent,421,82.4,76.0,10,37
+med_hybrid_opt_rr,32B,answer-bearing (discrim),67,91.0,91.0,2,2
+med_hybrid_opt_rr,32B,gold present (recall),118,92.4,89.8,2,5
+med_hybrid_opt_rr,32B,gold absent,421,87.4,82.9,4,23
+med_bm25_rr,3B,answer-bearing (discrim),45,93.3,91.1,0,1
+med_bm25_rr,3B,gold present (recall),57,87.7,87.7,2,2
+med_bm25_rr,3B,gold absent,482,70.3,65.6,23,46
+med_bm25_rr,7B,answer-bearing (discrim),45,91.1,95.6,3,1
+med_bm25_rr,7B,gold present (recall),57,91.2,89.5,3,4
+med_bm25_rr,7B,gold absent,482,75.7,72.4,15,31
+med_bm25_rr,14B,answer-bearing (discrim),45,93.3,97.8,2,0
+med_bm25_rr,14B,gold present (recall),57,93.0,96.5,3,1
+med_bm25_rr,14B,gold absent,482,83.4,79.9,11,28
+med_bm25_rr,32B,answer-bearing (discrim),45,93.3,93.3,0,0
+med_bm25_rr,32B,gold present (recall),57,94.7,94.7,0,0
+med_bm25_rr,32B,gold absent,482,87.8,84.9,3,17
+medtb_dense_rr,3B,answer-bearing (discrim),40,95.0,92.5,0,1
+medtb_dense_rr,3B,gold present (recall),49,93.9,91.8,0,1
+medtb_dense_rr,3B,gold absent,490,70.0,65.9,23,43
+medtb_dense_rr,7B,answer-bearing (discrim),40,90.0,95.0,3,1
+medtb_dense_rr,7B,gold present (recall),49,89.8,93.9,4,2
+medtb_dense_rr,7B,gold absent,490,76.1,72.9,11,27
+medtb_dense_rr,14B,answer-bearing (discrim),40,92.5,100.0,3,0
+medtb_dense_rr,14B,gold present (recall),49,93.9,98.0,3,1
+medtb_dense_rr,14B,gold absent,490,83.5,81.2,15,26
+medtb_dense_rr,32B,answer-bearing (discrim),40,90.0,95.0,2,0
+medtb_dense_rr,32B,gold present (recall),49,91.8,95.9,2,0
+medtb_dense_rr,32B,gold absent,490,88.2,86.7,9,16
+medtb_hybrid_rr,3B,answer-bearing (discrim),39,94.9,89.7,0,2
+medtb_hybrid_rr,3B,gold present (recall),50,92.0,90.0,1,2
+medtb_hybrid_rr,3B,gold absent,489,70.1,67.9,23,34
+medtb_hybrid_rr,7B,answer-bearing (discrim),39,87.2,94.9,4,1
+medtb_hybrid_rr,7B,gold present (recall),50,88.0,96.0,5,1
+medtb_hybrid_rr,7B,gold absent,489,76.3,73.8,9,21
+medtb_hybrid_rr,14B,answer-bearing (discrim),39,92.3,94.9,1,0
+medtb_hybrid_rr,14B,gold present (recall),50,94.0,94.0,1,1
+medtb_hybrid_rr,14B,gold absent,489,83.4,80.2,14,30
+medtb_hybrid_rr,32B,answer-bearing (discrim),39,89.7,94.9,2,0
+medtb_hybrid_rr,32B,gold present (recall),50,92.0,96.0,2,0
+medtb_hybrid_rr,32B,gold absent,489,88.1,85.5,7,20
